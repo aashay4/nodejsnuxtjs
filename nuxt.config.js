@@ -67,7 +67,8 @@ export default {
     '@nuxtjs/axios'
   ],
   axios: {
-},
+    proxy: true
+  },
 serverMiddleware: [
 '~/api/index.js'
 ],
