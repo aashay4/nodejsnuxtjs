@@ -64,7 +64,7 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     'nuxt-i18n',
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
   ],
   axios: {
     proxy: true
