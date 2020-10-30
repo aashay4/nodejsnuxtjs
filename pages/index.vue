@@ -1,5 +1,4 @@
 <template>
-<tbody>
   <div class="row">
     <!-- Big Chart -->
     <div class="col-12">
@@ -163,8 +162,7 @@
               </template>
 
             <div class="table-full-width table-responsive">
-              <tbody>
-              <task-list></task-list></tbody>
+              <task-list></task-list>
 
             </div>
           </card>
@@ -389,7 +387,6 @@
       </div>
       </div>
       </div>
-    </tbody>
 </template>
 <script>
 import swal from 'sweetalert2';
