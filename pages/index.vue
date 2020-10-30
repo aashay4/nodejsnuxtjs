@@ -91,7 +91,8 @@
             <h4 class="card-title">
               <i class="tim-icons  icon-tag text-warning "></i> 8 Frameworks
             </h4>
-            <p class="category">With our SEO services, we have made Angular, React, Wordpress, Magento, Vue, Shopify, Joomla and Drupal SEO friendly.</p>
+
+            <p class="category"><tbody>With our SEO services, we have made Angular, React, Wordpress, Magento, Vue, Shopify, Joomla and Drupal SEO friendly.</tbody></p>
           </div>
         </div>
       </card>
@@ -166,7 +167,9 @@
           <h1 class="card-title">696</h1>
           <h3 class="card-category">Total Tickets Solved</h3>
           <p class="card-description">
+                  <tbody>
             We solve client's queries on the same day. We successfully solved 696 client queries in last six months.
+          </tbody>
           </p>
           <hr />
 
@@ -208,10 +211,12 @@
               >
                 <h2 slot="header">Why SEOJS is the best SEO Agency?</h2>
                 <p slot="content">
+                  <tbody>
                   We are not only good at providing SEO services for wordpress CMS or
                   any other CMS, but we are also expert in making different Javascript
                   website SEO-friendly. We make all website's built with Javascript frameworks
                   like react.js, angular, vue or Ember.
+                </tbody>
                 </p>
                   </time-line-item>
 
@@ -222,10 +227,14 @@
               >
                 <h2 slot="header">How SEO Services Help Your Business?</h2>
                 <p slot="content">
+                  <tbody>
+
                   In our seo services, we make a website's pages search engine friendly
                   by adding useful content, improving page loading speed, make user-friendly
                   pages. By targeting high search volume keyword and ranking for those keywords,
                   eventually increases web presence and increases leads for the business.
+                </tbody>
+
                 </p>
               </time-line-item>
               <time-line-item
@@ -282,13 +291,16 @@
                 <div class="card-prices">
                   <h3 class="text-on-front"><span>$</span>1250</h3>
                   <h5 class="text-on-back">125</h5>
-                  <p class="plan">Best for Enterprises & large Ecommerce websites</p>
+                  <p class="plan">  <tbody>
+                  Best for Enterprises & large Ecommerce websites
+                  </tbody>
+                </p>
                 </div>
                 <base-button
                 slot="footer"
                 round type="primary"
                 class="btn-just-icon">
-                  <a href="/seo-packages/" style="color: white"> <b>Get started</b></a>
+                  <nuxt-link to="/seo-packages"><a href="/seo-packages" style="color: white"> <b>Get started</b></a></nuxt-link>
                 </base-button>
               </card>
             </div>
@@ -309,11 +321,12 @@
                 <div class="card-prices">
                   <h3 class="text-on-front"><span>$</span>799</h3>
                   <h5 class="text-on-back">799</h5>
-                  <p class="plan">Best for medium business and Ecommerce</p>
+                  <p class="plan">  <tbody>
+                  Best for medium business and Ecommerce</tbody></p>
                 </div>
 
                 <base-button slot="footer" round type="success" class="btn-just-icon">
-                <a href="/seo-packages/" style="color: white"> <b>Get started</b></a>
+                <nuxt-link to="/seo-packages"><a href="/seo-packages" style="color: white"> <b>Get started</b></a></nuxt-link>
                 </base-button>
               </card>
             </div>
@@ -334,11 +347,12 @@
                 <div class="card-prices">
                   <h3 class="text-on-front"><span>$</span>550</h3>
                   <h5 class="text-on-back">55</h5>
-                  <p class="plan">More National Keywords</p>
+                  <p class="plan">  <tbody>
+                  More National Keywords</tbody></p>
                 </div>
 
                 <base-button slot="footer" round type="warning" class="btn-just-icon">
-                            <a href="/seo-packages/" style="color: white"> <b>Get started</b></a>
+                            <nuxt-link to="/seo-packages"><a href="/seo-packages" style="color: white"> <b>Get started</b></a></nuxt-link>
                 </base-button>
               </card>
             </div>
@@ -358,11 +372,12 @@
                 <div class="card-prices">
                   <h3 class="text-on-front"><span>$</span>299</h3>
                   <h5 class="text-on-back">299</h5>
-                  <p class="plan">Best for Local Businesses</p>
+                  <p class="plan">  <tbody>
+                  Best for Local Businesses</tbody></p>
                 </div>
 
                 <base-button slot="footer" round type="danger" class="btn-just-icon">
-                            <a href="/seo-packages/" style="color: white"> <b>Get started</b></a>
+                            <nuxt-link to="/seo-packages"><a href="/seo-packages" style="color: white"> <b>Get started</b></a></nuxt-link>
                 </base-button>
               </card>
             </div>
@@ -422,6 +437,20 @@ let bigChartDatasetOptions = {
 
 export default {
   name: 'dashboard',
+  head() {
+  // sets document title
+  return {
+  title: 'SEO services: Get Affordable Searc Engine Optimization Services',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'Increase your web presence with our best SEO services. With our innovative strategy and different approach has helped our clients to stay ahead and above then the rest.' }
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://seojs.co/'}
+  ]
+  }
+  },
   components: {
     LineChart,
     BarChart,

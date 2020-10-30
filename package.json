@@ -28,6 +28,7 @@
     "fuse.js": "^3.2.0",
     "google-maps": "^3.2.1",
     "jsdom": "^16.4.0",
+    "nodemailer": "^6.4.14",
     "nouislider": "^12.1.0",
     "nuxt": "^2.9.1",
     "nuxt-i18n": "^6.1.0",

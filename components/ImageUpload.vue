@@ -56,8 +56,8 @@ export default {
     }
   },
   data() {
-    let avatarPlaceholder = 'http://demos.creative-tim.com/nuxt-black-dashboard-pro/img/placeholder.jpg';
-    let imgPlaceholder = 'http://demos.creative-tim.com/nuxt-black-dashboard-pro/img/image_placeholder.jpg';
+    let avatarPlaceholder = 'https://demos.creative-tim.com/nuxt-black-dashboard-pro/img/placeholder.jpg';
+    let imgPlaceholder = 'https://demos.creative-tim.com/nuxt-black-dashboard-pro/img/image_placeholder.jpg';
     return {
       placeholder: this.type === 'avatar' ? avatarPlaceholder : imgPlaceholder,
       imagePreview: null

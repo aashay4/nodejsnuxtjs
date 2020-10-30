@@ -88,7 +88,7 @@ export default {
     return {
       productsTable: [
         {
-          image: 'http://demos.creative-tim.com/nuxt-black-dashboard-pro/img/jacket.png',
+          image: 'https://demos.creative-tim.com/nuxt-black-dashboard-pro/img/jacket.png',
           title: 'Suede Biker Jacket ',
           description: 'by Saint Laurent',
           color: 'Black',
@@ -98,7 +98,7 @@ export default {
           amount: 3390
         },
         {
-          image: 'http://demos.creative-tim.com/nuxt-black-dashboard-pro/img/t-shirt.png',
+          image: 'https://demos.creative-tim.com/nuxt-black-dashboard-pro/img/t-shirt.png',
           title: 'Jersey T-Shirt',
           description: 'by Balmain',
           color: 'Black',
@@ -108,7 +108,7 @@ export default {
           amount: 998
         },
         {
-          image: 'http://demos.creative-tim.com/nuxt-black-dashboard-pro/img/gucci.png',
+          image: 'https://demos.creative-tim.com/nuxt-black-dashboard-pro/img/gucci.png',
           title: '\tSlim-Fit Swim Short ',
           description: 'by Prada',
           color: 'Red',

@@ -21,14 +21,6 @@
 
     <ul class="navbar-nav" :class="$rtl.isRTL ? 'mr-auto' : 'ml-auto'">
       <div class="search-bar input-group" @click="searchModalVisible = true">
-        <button
-          class="btn btn-link"
-          id="search-button"
-          data-toggle="modal"
-          data-target="#searchModal"
-        >
-          <i class="tim-icons icon-zoom-split"></i>
-        </button>
         <!-- You can choose types of search input -->
       </div>
       <modal
@@ -96,10 +88,10 @@
           <b class="caret d-none d-lg-block d-xl-block"></b>
               </template>
         <li class="nav-link">
-          <a href="/about/" class="nav-item dropdown-item">Profile</a>
+          <nuxt-link to="/about"><a href="/about" class="nav-item dropdown-item">Profile</a></nuxt-link>
         </li>
         <li class="nav-link">
-          <a href="/seo-packages/" class="nav-item dropdown-item">SEO Packages</a>
+          <nuxt-link to="/seo-packages"><a href="/seo-packages" class="nav-item dropdown-item">SEO Packages</a></nuxt-link>
         </li>
         </base-dropdown>
     </ul>

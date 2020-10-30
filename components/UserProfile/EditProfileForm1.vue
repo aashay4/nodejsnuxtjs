@@ -14,6 +14,8 @@
         </div>
         <div class="col-md-6">
           <base-input
+          v-validate="'required'"
+          :error="getError('email')"
             type="email"
             label="Email address"
             placeholder="mike@email.com"
@@ -26,19 +28,23 @@
       <div class="row">
         <div class="col-md-6">
           <base-input
+          v-validate="'required'"
+          :error="getError('name')"
             type="text"
-            label="First Name"
-            placeholder="First Name"
-            v-model="user.firstName"
+            label="Full Name"
+            placeholder="Full Name"
+            v-model="user.name"
           >
           </base-input>
         </div>
         <div class="col-md-6">
           <base-input
-            type="text"
-            label="Last Name"
-            placeholder="Last Name"
-            v-model="user.lastName"
+          v-validate="'required'"
+          :error="getError('number')"
+            type="number"
+            label="Number"
+            placeholder="Number"
+            v-model="user.number"
           >
           </base-input>
         </div>
@@ -105,28 +111,76 @@
   </card>
 </template>
 <script>
+import { Modal, BaseAlert } from '@/components';
 export default {
   data() {
     return {
+      type: ['', 'info', 'success', 'warning', 'danger'],
+    notifications: {
+      topCenter: true
+    },
+    modals: {
+      classic: false,
+      notice: false,
+      mini: false
+    },
       user: {
         company: '',
+        required: '',
         username: '',
         email: '',
-        firstName: '',
-        lastName: '',
+        name: '',
+        number: '',
         address: '',
         city: '',
         country: '',
         postalCode: '',
         aboutMe: ``
+      },
+      modelValidations: {
+        required: {
+          required: true
+        },
+        email: {
+          email: true,
+          required: true
+        },
+        number: {
+          numeric: true,
+          reqired: true
+        },
+        name:{
+          required: true
+        }
       }
     };
   },
   methods: {
-    updateProfile() {
-      alert('Your data: ' + JSON.stringify(this.user));
+    getError(fieldName) {
+      return this.errors.first(fieldName);
+    },
+    async updateProfile(verticalAlign, horizontalAlign) {
+      let isValidForm = await this.$validator.validateAll();
+      if (isValidForm) {
+        // TIP use this.model to send it to api and perform register call
+        let color = Math.floor(Math.random() * 4 + 1);
+      this.$notify({
+        message:
+          'We have received your inquiry. We will be in touch <b>in 24 hours.</b>',
+        timeout: 60000,
+        icon: 'tim-icons icon-bell-55',
+        horizontalAlign: horizontalAlign,
+        verticalAlign: verticalAlign,
+        type: this.type[color]
+      });
+      }
     }
   }
 };
 </script>
-<style></style>
+<style>
+.card .alert {
+  position: relative !important;
+  width: 100%;
+}
+</style>

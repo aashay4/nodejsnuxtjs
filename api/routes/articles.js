@@ -8,6 +8,7 @@ const articlesController = require('../controllers/articlesController')
 
 router.post('/sites', articlesController.sites)
 router.post('/crawll', articlesController.crawll)
+router.post('/sendmail', articlesController.sendmail)
 router.post('/singlecrawl', articlesController.singlecrawl)
 router.post('/fullcrawl', articlesController.fullcrawl)
 

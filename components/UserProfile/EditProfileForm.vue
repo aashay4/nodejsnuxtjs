@@ -8,8 +8,12 @@
             <div class="description">
               <h3 class="info-title">Commitment</h3>
               <p class="description">
+                <tbody>
+
                 We're committed to provide the best services and a profitable collaboration form
                 our clients.
+              </tbody>
+
               </p>
             </div>
           </div>
@@ -20,8 +24,12 @@
             <div class="description">
               <h3 class="info-title">Full Design & Development Support</h3>
               <p class="description">
+                <tbody>
+
                 We take full responsibility of fixing design, on-page issues and
                 CRO of your website.
+              </tbody>
+
               </p>
             </div>
           </div>
@@ -32,8 +40,12 @@
             <div class="description">
               <h3 class="info-title">Great Return of Investment</h3>
               <p class="description">
+                <tbody>
+
                 Our ultimate goal is to go beyond your expections with our best
                 SEO services.
+              </tbody>
+            
               </p>
             </div>
           </div>
@@ -159,6 +171,22 @@ export default {
       let isValidForm = await this.$validator.validateAll();
       if (isValidForm) {
         // TIP use this.model to send it to api and perform register call
+        alert(this.model.email);
+        this.$axios.post('/api/sendmail', {
+            email: this.model.email,
+            fullName: this.model.fullName,
+            message: this.model.message,
+            number: this.model.number
+          })
+          .then((response) => {
+            console.log(response);
+          })
+          .catch( (error) => {
+            console.log(error)
+            if(error.response.data.errors){
+              this.errors = error.response.data.errors
+            }
+          });
         let color = Math.floor(Math.random() * 4 + 1);
       this.$notify({
         message:
