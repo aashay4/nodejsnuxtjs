@@ -51,7 +51,7 @@
         >
           <div class="notification d-none d-lg-block d-xl-block"></div>
           <i class="tim-icons icon-sound-wave"></i>
-          <p class="d-lg-none">New Notifications</p>
+          <i class="d-lg-none">New Notifications</i>
         </template>
         <li class="nav-link">
           <a href="#" class="nav-item dropdown-item"
@@ -88,10 +88,10 @@
           <b class="caret d-none d-lg-block d-xl-block"></b>
               </template>
         <li class="nav-link">
-          <nuxt-link to="/about"><a href="/about" class="nav-item dropdown-item">Profile</a></nuxt-link>
+          <a href="/about" class="nav-item dropdown-item">Profile</a>
         </li>
         <li class="nav-link">
-          <nuxt-link to="/seo-packages"><a href="/seo-packages" class="nav-item dropdown-item">SEO Packages</a></nuxt-link>
+          <a href="/seo-packages" class="nav-item dropdown-item">SEO Packages</a>
         </li>
         </base-dropdown>
     </ul>

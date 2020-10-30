@@ -1,8 +1,10 @@
 <template>
+  <client-only>
   <div class="row">
     <div class="col-md-8"><edit-profile-form> </edit-profile-form></div>
     <div class="col-md-4"><user-card> </user-card></div>
   </div>
+</client-only>
 </template>
 <script>
 import EditProfileForm from '../components/UserProfile/EditProfileForm1.vue';

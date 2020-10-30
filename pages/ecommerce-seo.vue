@@ -34,7 +34,7 @@
       </stats-card>
     </div>
     <div class="col-lg-12">
-      <card class="card" :header-classes="{ 'text-right': isRTL }">
+      <card class="card">
     <h1>Why Us for Ecommerce SEO Services?</h1>
     <p>We have worked on absolutely every ecommerce platform including Magento, Shopify, Woo-commerce and prestashop. We have worked on more then 10 Ecommerce project over last three years. We know, having an innovative SEO strategy does not really work for an Ecommerce store. In an Ecommerce website, we have to deal with thousands of pages and hundreds technical errors. So, we not only develop an SEO strategy but also sort all the on-page and technical SEO errors from a website.</p><br>
     <p>Having an indepth technical errors solving skills help us to rank more keywords on the first page. Have a look at some of the facts that make us the best Ecommerce SEO company.</p><br>

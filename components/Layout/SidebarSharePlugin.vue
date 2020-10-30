@@ -1,15 +1,19 @@
 <template>
   <div class="fixed-plugin" v-click-outside="closeDropDown">
     <div class="dropdown show-dropdown" :class="{ show: isOpen }">
+      <client-only>
       <a data-toggle="dropdown" class="settings-icon">
         <i class="fa fa-cog fa-2x" @click="toggleDropDown"> </i>
       </a>
+    </client-only>
+    <client-only>
       <ul class="dropdown-menu" :class="{ show: isOpen }">
         <li class="header-title">Sidebar Background</li>
         <li class="adjustments-line">
           <a class="switch-trigger background-color">
             <div class="badge-colors text-center">
-              <span
+              <client-only>
+                <span
                 v-for="item in sidebarColors"
                 :key="item.color"
                 class="badge filter"
@@ -17,6 +21,7 @@
                 :data-color="item.color"
                 @click="changeSidebarBackground(item);"
               ></span>
+            </client-only>
             </div>
             <div class="clearfix"></div>
           </a>
@@ -53,6 +58,7 @@
       </nuxt-link>
           </li>
       </ul>
+    </client-only>
     </div>
   </div>
 </template>

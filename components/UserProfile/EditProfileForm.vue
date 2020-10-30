@@ -7,14 +7,12 @@
             </div>
             <div class="description">
               <h3 class="info-title">Commitment</h3>
+              <client-only>
               <p class="description">
-                <tbody>
-
                 We're committed to provide the best services and a profitable collaboration form
                 our clients.
-              </tbody>
-
               </p>
+            </client-only>
             </div>
           </div>
           <div class="info-area info-horizontal">
@@ -23,14 +21,15 @@
             </div>
             <div class="description">
               <h3 class="info-title">Full Design & Development Support</h3>
+              <client-only>
               <p class="description">
-                <tbody>
+
 
                 We take full responsibility of fixing design, on-page issues and
                 CRO of your website.
-              </tbody>
 
               </p>
+            </client-only>
             </div>
           </div>
           <div class="info-area info-horizontal">
@@ -39,14 +38,12 @@
             </div>
             <div class="description">
               <h3 class="info-title">Great Return of Investment</h3>
+              <client-only>
               <p class="description">
-                <tbody>
-
                 Our ultimate goal is to go beyond your expections with our best
                 SEO services.
-              </tbody>
-            
               </p>
+            </client-only>
             </div>
           </div>
         </div>

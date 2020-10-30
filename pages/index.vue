@@ -1,21 +1,21 @@
 <template>
-
+<tbody>
   <div class="row">
     <!-- Big Chart -->
     <div class="col-12">
       <card type="chart">
         <template slot="header">
           <div class="row">
-            <div class="col-sm-6" :class="isRTL ? 'text-right' : 'text-left'">
+            <div class="col-sm-6">
               <h5 class="card-category">About Our SEO Services</h5>
               <h2 class="card-title">Our Achievements</h2>
             </div>
             <div class="col-sm-6 d-flex d-sm-block">
               <div
                 class="btn-group btn-group-toggle"
-                :class="isRTL ? 'float-left' : 'float-right'"
                 data-toggle="buttons"
               >
+              <client-only>
                 <label
                   v-for="(option, index) in bigLineChartCategories"
                   :key="option.name"
@@ -35,6 +35,7 @@
                     <i :class="option.icon"></i>
                   </span>
                 </label>
+              </client-only>
               </div>
             </div>
           </div>
@@ -53,6 +54,7 @@
       </card>
     </div>
     <!-- Stats Cards -->
+    <client-only>
     <div class="col-lg-3 col-md-6" v-for="card in statsCards" :key="card.title">
       <stats-card
         :title="card.title"
@@ -63,7 +65,7 @@
         <div slot="footer" v-html="card.footer"></div>
       </stats-card>
     </div>
-
+  </client-only>
     <!-- Small charts -->
 
     <div class="col-lg-4 mr-auto">
@@ -92,13 +94,13 @@
               <i class="tim-icons  icon-tag text-warning "></i> 8 Frameworks
             </h4>
 
-            <p class="category"><tbody>With our SEO services, we have made Angular, React, Wordpress, Magento, Vue, Shopify, Joomla and Drupal SEO friendly.</tbody></p>
+            <p class="category">With our SEO services, we have made Angular, React, Wordpress, Magento, Vue, Shopify, Joomla and Drupal SEO friendly.</p>
           </div>
         </div>
       </card>
     </div>
 
-    <div class="col-lg-4" :class="{ 'text-right': isRTL }">
+    <div class="col-lg-4">
       <card type="chart">
         <template slot="header">
           <h5 class="card-category">Total Running Projects</h5>
@@ -141,7 +143,9 @@
       <card class="card" :header-classes="{ 'text-right': isRTL }">
         <h3 slot="header" class="card-title">Management table of our SEO Services</h3>
         <h5>We create individual password protected dashboard for each client where they can see the performance information about their website. This information includes total leads, work completed, total keywords ranking in top 10, sessions in one last month and pageviews.</h5>
-        <div class="table-responsive"><user-table></user-table>
+        <div class="table-responsive">
+          <client-only>
+          <user-table></user-table></client-only>
         </div>
       </card>
     </div>
@@ -159,7 +163,8 @@
               </template>
 
             <div class="table-full-width table-responsive">
-              <task-list></task-list>
+              <tbody>
+              <task-list></task-list></tbody>
 
             </div>
           </card>
@@ -167,9 +172,7 @@
           <h1 class="card-title">696</h1>
           <h3 class="card-category">Total Tickets Solved</h3>
           <p class="card-description">
-                  <tbody>
             We solve client's queries on the same day. We successfully solved 696 client queries in last six months.
-          </tbody>
           </p>
           <hr />
 
@@ -211,12 +214,10 @@
               >
                 <h2 slot="header">Why SEOJS is the best SEO Agency?</h2>
                 <p slot="content">
-                  <tbody>
                   We are not only good at providing SEO services for wordpress CMS or
                   any other CMS, but we are also expert in making different Javascript
                   website SEO-friendly. We make all website's built with Javascript frameworks
                   like react.js, angular, vue or Ember.
-                </tbody>
                 </p>
                   </time-line-item>
 
@@ -227,14 +228,10 @@
               >
                 <h2 slot="header">How SEO Services Help Your Business?</h2>
                 <p slot="content">
-                  <tbody>
-
                   In our seo services, we make a website's pages search engine friendly
                   by adding useful content, improving page loading speed, make user-friendly
                   pages. By targeting high search volume keyword and ranking for those keywords,
                   eventually increases web presence and increases leads for the business.
-                </tbody>
-
                 </p>
               </time-line-item>
               <time-line-item
@@ -291,9 +288,8 @@
                 <div class="card-prices">
                   <h3 class="text-on-front"><span>$</span>1250</h3>
                   <h5 class="text-on-back">125</h5>
-                  <p class="plan">  <tbody>
+                  <p class="plan">
                   Best for Enterprises & large Ecommerce websites
-                  </tbody>
                 </p>
                 </div>
                 <base-button
@@ -321,8 +317,8 @@
                 <div class="card-prices">
                   <h3 class="text-on-front"><span>$</span>799</h3>
                   <h5 class="text-on-back">799</h5>
-                  <p class="plan">  <tbody>
-                  Best for medium business and Ecommerce</tbody></p>
+                  <h6 class="plan">
+                  Best for medium business and Ecommerce</h6>
                 </div>
 
                 <base-button slot="footer" round type="success" class="btn-just-icon">
@@ -347,8 +343,8 @@
                 <div class="card-prices">
                   <h3 class="text-on-front"><span>$</span>550</h3>
                   <h5 class="text-on-back">55</h5>
-                  <p class="plan">  <tbody>
-                  More National Keywords</tbody></p>
+                  <h6 class="plan">
+                  More National Keywords</h6>
                 </div>
 
                 <base-button slot="footer" round type="warning" class="btn-just-icon">
@@ -372,8 +368,8 @@
                 <div class="card-prices">
                   <h3 class="text-on-front"><span>$</span>299</h3>
                   <h5 class="text-on-back">299</h5>
-                  <p class="plan">  <tbody>
-                  Best for Local Businesses</tbody></p>
+                  <h6 class="plan">
+                  Best for Local Businesses</h6>
                 </div>
 
                 <base-button slot="footer" round type="danger" class="btn-just-icon">
@@ -393,6 +389,7 @@
       </div>
       </div>
       </div>
+    </tbody>
 </template>
 <script>
 import swal from 'sweetalert2';
@@ -461,7 +458,6 @@ export default {
     BaseSwitch,
     TimeLine,
     TimeLineItem,
-    TaskList,
     BaseCheckbox,
     BaseProgress,
     EditProfileForm,

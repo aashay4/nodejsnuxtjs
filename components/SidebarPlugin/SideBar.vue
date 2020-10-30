@@ -1,4 +1,5 @@
 <template>
+  <client-only>
   <div class="sidebar" :data="backgroundColor">
     <div class="sidebar-wrapper">
       <div class="logo">
@@ -88,6 +89,7 @@
       </ul>
     </div>
   </div>
+</client-only>
 </template>
 <script>
 export default {

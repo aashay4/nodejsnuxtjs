@@ -14,7 +14,7 @@
     </div>
     <p></p>
     <div class="card-description">
-      I'm Aasshey Triveddi and I'm the "root" of SEOJS.co. I have a few enthusiastic multi-taskers in my team
+      I'm Aasshey Triveddi and I'm the "root" of SEOJS. I have a few enthusiastic multi-taskers in my team
       who take up every challange as a new learing experience. Being the founder I
       take care of business development activities and work on creating innovative SEO
       strategies. I have been in SEO since 2017 & working on Node.js and Vue.js projects since
