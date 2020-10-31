@@ -1,8 +1,6 @@
 <template>
-  <client-only>
 <base-table :data="tableData" thead-classes="text-primary">
     <template slot-scope="{ row }">
-      <tbody>
       <td><base-checkbox :disabled="true" v-model="row.done"></base-checkbox></td>
       <td>
         <p class="title">{{ row.title }}</p>
@@ -10,10 +8,8 @@
       </td>
       <td class="td-actions text-right">
             </td>
-          </tbody>
     </template>
   </base-table>
-</client-only>
 </template>
 <script>
 import { BaseTable } from '@/components';
