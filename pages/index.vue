@@ -409,11 +409,11 @@ import {
 } from '@/components';
 
 let bigChartData = [
-  [2100, 2600, 700, 900, 1100, 1200, 1300],
+  [2100, 2600, 1900, 2200, 2150, 2300, 2600],
   [32, 25, 11, 13, 19, 25, 24],
   [2000, 2200, 2400, 1900, 2500, 2750, 2900]
 ]
-let bigChartLabels = ['MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP']
+let bigChartLabels = ['MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV']
 let bigChartDatasetOptions = {
   fill: true,
   borderColor: config.colors.primary,
@@ -494,7 +494,7 @@ export default {
           subTitle: 'Projects delivered',
           type: 'primary',
           icon: 'tim-icons icon-shape-star',
-          footer: '<i class="tim-icons icon-sound-wave"></i></i> In Last Five Years'
+          footer: '<i class="tim-icons icon-sound-wave"></i></i> In Last Three Years'
         },
         {
           title: '100+',
@@ -528,7 +528,7 @@ export default {
       purpleLineChart: {
         extraOptions: chartConfigs.purpleChartOptions,
         chartData: {
-          labels: ['APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP'],
+          labels: ['MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT'],
           datasets: [
             {
               label: 'Data',
@@ -554,7 +554,7 @@ export default {
       greenLineChart: {
         extraOptions: chartConfigs.greenChartOptions,
         chartData: {
-          labels: ['APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP'],
+          labels: ['MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT'],
           datasets: [
             {
               label: 'Tasks Completed',

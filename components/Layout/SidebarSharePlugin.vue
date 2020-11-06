@@ -47,6 +47,11 @@
 
         <li class="button-container mt-4">
           <nuxt-link
+          to="/seo-analyzer"
+          class="btn btn-info btn-block btn-round">
+          SEO Analyzer
+        </nuxt-link>
+          <nuxt-link
           to="/seo-checker"
           class="btn btn-info btn-block btn-round">
           Website SEO Checker Tool

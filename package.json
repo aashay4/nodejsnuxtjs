@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-black-dashboard-pro",
+  "name": "seojs-app",
   "version": "1.0.0",
-  "description": "Nuxt Black Dashboard PRO",
-  "author": "Aashay Trivedi",
+  "description": "seojs-app",
+  "author": "Aasshey Triveddi",
   "private": true,
   "scripts": {
     "dev": "nuxt",

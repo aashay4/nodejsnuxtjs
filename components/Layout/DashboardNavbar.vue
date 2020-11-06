@@ -55,22 +55,16 @@
         </template>
         <li class="nav-link">
           <a href="#" class="nav-item dropdown-item"
-            >Mike John responded to your email</a
+            >SEO Analyzer Version 1.0.2 Published</a
           >
         </li>
         <li class="nav-link">
-          <a href="#" class="nav-item dropdown-item">You have 5 more tasks</a>
+          <a href="#" class="nav-item dropdown-item">Dark Mode Enabled</a>
         </li>
         <li class="nav-link">
           <a href="#" class="nav-item dropdown-item"
-            >Your friend Michael is in town</a
+            >Website SEO Checker tool updated</a
           >
-        </li>
-        <li class="nav-link">
-          <a href="#" class="nav-item dropdown-item">Another notification</a>
-        </li>
-        <li class="nav-link">
-          <a href="#" class="nav-item dropdown-item">Another one</a>
         </li>
       </base-dropdown>
       <base-dropdown
@@ -88,7 +82,7 @@
           <b class="caret d-none d-lg-block d-xl-block"></b>
               </template>
         <li class="nav-link">
-          <a href="/about" class="nav-item dropdown-item">Profile</a>
+          <a href="/about" class="nav-item dropdown-item">About</a>
         </li>
         <li class="nav-link">
           <a href="/seo-packages" class="nav-item dropdown-item">SEO Packages</a>
