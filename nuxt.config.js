@@ -65,6 +65,7 @@ export default {
     '@nuxtjs/pwa',
     'nuxt-i18n',
     '@nuxtjs/axios',
+      '~/io',
   ],
   axios: {
     proxy: true
