@@ -873,7 +873,7 @@ export default {
       { hid: 'description', name: 'description', content: 'With our SEO Analyzer, analyze your websites Meta title, description, page loading speed and HTML file size with ease. Try SEO Analyzer now.'}
   ],
   link: [
-  {rel: 'canonical', href: 'http://localhost:3000/seo-analyzer'}
+  {rel: 'canonical', href: 'https://seojs.co/seo-analyzer	'}
   ]
   }
   },
