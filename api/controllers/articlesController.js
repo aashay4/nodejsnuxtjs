@@ -231,12 +231,13 @@ module.exports.crawll = function (req, res, next) {
           }
           else{
               var $ = res.$;
+              console.log(res);
               // $ is Cheerio by default
               //a lean implementation of core jQuery designed specifically for the server
-              console.log("title:");
+              //console.log("title:");
               var aa = $("title").text();
               element.title = aa;
-              console.log("H1:" + $("h1").text());
+              //console.log("H1:" + $("h1").text());
               element.h1 = $("h1").text();
               element.h2 = $("h2").text();
               element.canonical = $("link[rel='canonical']").attr("href");
@@ -285,6 +286,7 @@ module.exports.crawll = function (req, res, next) {
   crawler1.on("fetchcomplete", function(queueItem, responseBuffer, response) {
     if(queueItem.stateData.contentType === "text/html; charset=UTF-8" || queueItem.stateData.contentType === "text/html; charset=utf-8")
     //console.log(queueItem);
+    console.log(queueItem);
       var bb = queueItem.protocol;
       console.log("protocol:" + bb);
       element.protocol = bb;

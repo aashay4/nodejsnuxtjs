@@ -3,7 +3,7 @@
     <div class="col-md-12">
     <h1>Data Science Services</h1>
     <card class="card">
-    <p>In our data science services, we implement scientific methods, algoriths, processes to extract data from many other source. We analyse the data and help different organization to improve sales and create a marketing strategy to help their businesses grow. Data mining, machine learning and big data analysis are related to data science and we use these concepts to get the best possible analytics results for our clients. With our data science capabilities, we helped three Ecommerce websites to improve their sales from their Ecommerce website.</p>
+    <p>In our data science services, we implement scientific methods, algorithms, processes to extract data from many other sources. We analyze the data and help different organizations to improve sales and create a marketing strategy to help their businesses grow. Data mining, machine learning, and big data analysis are related to data science and we use these concepts to get the best possible analytics results for our clients. With our data science capabilities, we helped three ecommerce websites to improve their sales from their ecommerce website.</p>
   </card></div>
     <div class="col-md-12">
       <card class="card-chart">
@@ -37,15 +37,15 @@
     <div class="col-lg-12">
       <card class="card">
     <h1>About Our Data Science Services?</h1>
-    <p>To deliver sucessful resutls with the data science, one needs great technical knowledge as well as the business sense. With our advanced crawlers, data mining skills and machine learning, we not only get the high quality of data but also analyse the data for the business expansion. Eventually, this data can be useful to generate leads for a business and improve sales for an ecommerce website.</p><br>
+    <p>To deliver successful results with data science, one needs great technical knowledge as well as business sense. With our advanced crawlers, data mining skills, and machine learning, we not only get the high quality of data but also analyze the data for business expansion. Eventually, this data can be useful to generate leads for a business and improve sales for an eCommerce website.</p><br>
     <div class="col-md-12 ml-auto">
         </div>
-    <p>Having an indepth data science and analytics skills help us to get the most accurate result for our clients and help them to inprove their business sales. Have a look at some of the facts that make us the best data science company.</p><br>
+    <p>Having in-depth data science and analytics skills help us to get the most accurate result for our clients and help them to improve their business sales. Have a look at some of the facts that make us the best data science company.</p><br>
     <ul>
     <li>Technical Errors solving skills</li>
     <li>Optimize the products supply management</li>
     <li>Ability to implement innovative techniques to get data</li>
-    <li>We build a unique strategy to improve production efficiancy</li>
+    <li>We build a unique strategy to improve production efficiency</li>
     <li>Result-oriented approach</li>
     <li>Expertise in customer behavior prediction</li>
   </ul><br>
@@ -77,7 +77,7 @@
         >
           <h2 slot="header">Why Us?</h2>
           <p slot="content">
-            Data Science is not just about software engineering or management. A company that provides this services should be well experienced in sales, marketing and software development. At SEOJS, we have different our websites in various niches like technology, maths, fashion and spoarts and ecommerce stores. We analyse the data we get and try to improve our results. WE have successfully improved Ecommerce sales and leads conversion with the concepts of data mining, analytics and customer prediction. So, we are not only good at software development but also we have great analytics skills which really benefits businesses.
+            Data Science is not just about software engineering or management. A company providing these services should be well experienced in sales, marketing, and software development. At SEOJS, we have different our websites in various niches like technology, maths, fashion, and sports and eCommerce stores. We analyze the data we get and try to improve our results. We have successfully improved Ecommerce sales and leads conversion with the concepts of data mining, analytics, and customer prediction. So, we are not only good at software development but also we have great analytics skills which benefit businesses.
           </p>
           </time-line-item>
 
@@ -100,7 +100,7 @@
       <collapse :multiple-active="false" :active-index="0">
         <collapse-item title="Why Data Science is important?">
           <div>
-            Data Science is processing existing data, utilizing it to learn about the customers and their behaviour. We develop machine learning algorithms to process the data we gather and help various businesses to improve their business sales.
+            Data Science is processing existing data, utilizing it to learn about the customers and their behavior. We develop machine learning algorithms to process the data we gather and help various businesses to improve their business sales.
           </div>
         </collapse-item>
       </collapse>

@@ -9,8 +9,7 @@
               <h3 class="info-title">Commitment</h3>
               <client-only>
               <p class="description">
-                We're committed to provide the best services and a profitable collaboration form
-                our clients.
+                We're committed to providing the best services and profitable collaboration with our clients.
               </p>
             </client-only>
             </div>
@@ -23,11 +22,7 @@
               <h3 class="info-title">Full Design & Development Support</h3>
               <client-only>
               <p class="description">
-
-
-                We take full responsibility of fixing design, on-page issues and
-                CRO of your website.
-
+                We take full responsibility for fixing design, on-page issues, and CRO of your website.
               </p>
             </client-only>
             </div>
@@ -40,8 +35,7 @@
               <h3 class="info-title">Great Return of Investment</h3>
               <client-only>
               <p class="description">
-                Our ultimate goal is to go beyond your expections with our best
-                SEO services.
+                Our ultimate goal is to go beyond your expectations with our best SEO services.
               </p>
             </client-only>
             </div>

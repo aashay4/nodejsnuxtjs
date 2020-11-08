@@ -39,7 +39,7 @@ export default {
           done: true
         },
         {
-          title: 'Develop Algoriths for Prediction',
+          title: 'Develop Algorithms for Prediction',
           description: '',
           done: true
         },

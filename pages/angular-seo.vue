@@ -3,9 +3,9 @@
     <div class="col-md-12">
     <h1>Angular SEO</h1>
     <card class="card">
-    <p>More then 58% start ups that are built with Javascript frameworks fail due to bad SEO. In order to avoid any disaster due to this, you need to make your Angular, React or Vue website SEO friendly. Talking about Angular SEO, it is a Javascript framework powered by Google and it is also a single page application framework. It is one of the oldest Javascript JS frameworks and follows Model-view-controller architecture.</p><br>
-    <p>By default, Angular routing is configured in the hash mode which means every route on the website is going to be after hashtag("#"). For example, path to the /about page, will have the URL example.com/#/about. Fact of a matter is, Google and Bing do not index URLs with a hashtag. To index all the routes, you need to configure your website routes with history mode.</p><br>
-    <p>We have worked on two start ups made with Angular and made both of the websites SEO friendly. Check out our key achievements:</p>
+    <p>More than 58% start ups that are built with Javascript frameworks fail due to bad SEO. To avoid any disaster due to this, you need to make your Angular, React, or Vue website SEO friendly. Talking about Angular SEO, it is a Javascript framework powered by Google and it is also a single page application framework. It is one of the oldest Javascript JS frameworks and follows Model-view-controller architecture.</p><br>
+    <p>By default, Angular routing is configured in the hash mode which means every route on the website is going to be after a hashtag("#"). For example, the path to the /about page will have the URL example.com/#/about. The fact of the matter is, Google and Bing do not index URLs with a hashtag. To index all the routes, you need to configure your website routes with history mode.</p><br>
+    <p>We have worked on two startups made with Angular and made both of the websites SEO friendly. Check out our key achievements:</p>
   </card></div>
     <div class="col-md-12">
       <card class="card-chart">
@@ -38,8 +38,8 @@
     </div>
     <div class="col-lg-12">
       <card class="card">
-    <h1>Why Us for Local SEO Services?</h1>
-    <p>More then link building, Local SEO is all about on-page changes implementation and business listing on local sites. We have worked on several local business websites that are built with Joomla, Wordpress, Godaddy CMS and Wix. With an experience of several years and frameworks, we can rank your website on the Google SERP, maps and generate the best return of investment in the least amount of time.</p><br>
+    <h1>Why Us for Angular SEO Services?</h1>
+    <p>More than link building, Angular SEO is all about solving technical SEO errors and implement all the necessary On-page changes. We have worked on several Angular websites and solved multiple technical errors and helped different business owners to generate leads for their respective business. With the experience of several years and frameworks, we can rank your website on the Google SERP, maps, and generate the best return of investment in the least amount of time.</p><br>
     <div class="col-md-12 ml-auto">
       <card>
         <div class="text-center">
@@ -50,7 +50,7 @@
         </div>
       </card>
     </div>
-    <p>Having an indepth technical errors solving skills helps us to rank more local keywords on the first page and Google maps. Have a look at some of the facts that make us the best Local SEO company.</p><br>
+    <p>Having in-depth technical errors solving skills helps us to rank more local keywords on the first page and Google maps. Have a look at some of the facts that make us the best Angular SEO company.</p><br>
     <ul>
     <li>Technical Errors solving skills</li>
     <li>Familiar with all the CMS platforms</li>
@@ -88,7 +88,7 @@
         >
           <h2 slot="header">Who Should Opt For Angular SEO Services?</h2>
           <p slot="content">
-            In many aspects, Angular might be one of the greatest javascript front-end frameworks but when it comes to SEO, it lacks many key things. As a matter of fact, it is built for tools and web applications and SEO was definitely not the prime goal. Apart from hash URLs, there are many other important SEO points that need to be taken care of. The SEO points are meta titles and description integration, canonical tag insertion, sitemap.XML file update, schema markup and much more. If you are running a start up then opting for Anguar SEO can be an affordable solution to generate leads for your business.
+            In many aspects, Angular might be one of the greatest javascript front-end frameworks but when it comes to SEO, it lacks many key things. It is built for tools and web applications and SEO was not the prime goal. Apart from hash URLs, many other important SEO points need to be taken care of. The SEO points are meta titles and description integration, canonical tag insertion, sitemap.XML file update, schema markup and much more. If you are running a start up then opting for Anguar SEO can be an affordable solution to generate leads for your business.
           </p>
           </time-line-item>
       </time-line>
@@ -110,13 +110,13 @@
       <collapse :multiple-active="false" :active-index="0">
         <collapse-item title="How does SEO help my business?">
           <div>
-            Making on-page changes is not enough to rank in Google and get leads for your business. In our SEO campaign, firstly we do a detailed keyword research and analysis and then start optimizing your website for those keywords. Once, the keywords start ranking on the Google SERP first page, eventually traffic and leads also increases.
+            Making on-page changes is not enough to rank in Google and get leads for your business. In our SEO campaign, firstly we do detailed keyword research and analysis and then start optimizing your website for those keywords. Once, the keywords start ranking on the Google SERP first page, eventually traffic and leads also increases.
           </div>
         </collapse-item>
 
         <collapse-item title="How long does it take to rank?">
           <div>
-            Normally, there is less competition in the local keywords. We work on all the keywords simantenously. It takes maximum three months to rank for 30% of the total keywords we are targeting. Time to get keywords ranking actually depend on the keywords seaarch volume and competition. But as said earlier, local keywords are not as competitive as the other keywords.
+            Normally, there is less competition in the local keywords. We work on all the keywords simultaneously. It takes a maximum of three months to rank for 30% of the total keywords we are targeting. Time to get keywords ranking depends on the keywords search volume and competition. But as said earlier, local keywords are not as competitive as the other keywords.
           </div>
         </collapse-item>
 

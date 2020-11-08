@@ -51,6 +51,11 @@
           class="btn btn-info btn-block btn-round">
           SEO Analyzer
         </nuxt-link>
+        <nuxt-link
+        to="/broken-link-checker"
+        class="btn btn-info btn-block btn-round">
+        Broken Link Checker
+      </nuxt-link>
           <nuxt-link
           to="/seo-checker"
           class="btn btn-info btn-block btn-round">

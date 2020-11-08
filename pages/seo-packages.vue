@@ -145,7 +145,7 @@ export default {
   data() {
     return {
       selects: {
-  simple: '',
+  simple: '$299 - LOCAL',
   countries: [
     { value: '$1250 - PRO', label: '$1250 - PRO' },
     { value: '$799 - BIZ', label: '$799 - BIZ' },
@@ -172,7 +172,8 @@ export default {
         equalToDest: '',
         fullName: '',
         message: '',
-        country: ''
+        country: '',
+        package: ''
       },
       modelValidations: {
         required: {
@@ -207,6 +208,24 @@ export default {
       let isValidForm = await this.$validator.validateAll();
       if (isValidForm) {
         // TIP use this.model to send it to api and perform register call
+        alert(this.selects.simple);
+        this.$axios.post('/api/sendmail', {
+            email: this.model.email,
+            fullName: this.model.fullName,
+            message: this.model.message,
+            number: this.model.number,
+            country: this.model.country,
+            package: this.selects.simple
+          })
+          .then((response) => {
+            console.log(response);
+          })
+          .catch( (error) => {
+            console.log(error)
+            if(error.response.data.errors){
+              this.errors = error.response.data.errors
+            }
+          });
         let color = Math.floor(Math.random() * 4 + 1);
       this.$notify({
         message:

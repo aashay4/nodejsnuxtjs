@@ -141,7 +141,7 @@
     <div class="col-lg-12">
       <card class="card" :header-classes="{ 'text-right': isRTL }">
         <h3 slot="header" class="card-title">Management table of our SEO Services</h3>
-        <h5>We create individual password protected dashboard for each client where they can see the performance information about their website. This information includes total leads, work completed, total keywords ranking in top 10, sessions in one last month and pageviews.</h5>
+        <h5>We create individual password-protected dashboards for each client where they can see the performance information about their website. This information includes total leads, work completed, total keywords ranking in the top 10, sessions in one last month, and pageviews.</h5>
         <div class="table-responsive">
           <client-only>
           <user-table></user-table></client-only>
@@ -212,10 +212,7 @@
               >
                 <h2 slot="header">Why SEOJS is the best SEO Agency?</h2>
                 <p slot="content">
-                  We are not only good at providing SEO services for wordpress CMS or
-                  any other CMS, but we are also expert in making different Javascript
-                  website SEO-friendly. We make all website's built with Javascript frameworks
-                  like react.js, angular, vue or Ember.
+                  We are not only good at providing SEO services for WordPress CMS or any other CMS, but we are also expert in making different Javascript website SEO-friendly. We make all websites built with Javascript frameworks like react.js, angular, Vue, or Ember.
                 </p>
                   </time-line-item>
 
@@ -226,10 +223,7 @@
               >
                 <h2 slot="header">How SEO Services Help Your Business?</h2>
                 <p slot="content">
-                  In our seo services, we make a website's pages search engine friendly
-                  by adding useful content, improving page loading speed, make user-friendly
-                  pages. By targeting high search volume keyword and ranking for those keywords,
-                  eventually increases web presence and increases leads for the business.
+                  In our SEO services, we make a website's pages search engine friendly by adding useful content, improving page loading speed, make user-friendly pages. By targeting high search volume keyword and ranking for those keywords, eventually increases web presence and increases lead for the business.
                 </p>
               </time-line-item>
               <time-line-item
@@ -241,16 +235,10 @@
 
               <template slot="content">
                 <p>
-                  Not going by the books and improvising every strategy for the best
-                  possible results help us to run a successful campaign for our
-                  clients. We have ultiple in-house website where we perform SEO
-                  experiments and if we get positive result, we implement the same
-                  strategy on our client's websites.
+                  Not going by the books and improvising every strategy for the best possible results help us to run a successful campaign for our clients. We have multiple in-house websites where we perform SEO experiments and if we get a positive result, we implement the same strategy on our client's websites.
                 </p>
                 <p>
-                  Revolutionary thinking is the biggest reason behind our success. We spend
-                  a huge amount of our time in research & analysis and come up with the
-                  creative solution.
+                  Revolutionary thinking is the biggest reason for our success. We spend a huge amount of our time in research & analysis and come up with a creative solution.
                 </p>
                 <hr />
               </template>

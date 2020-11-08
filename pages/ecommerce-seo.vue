@@ -3,7 +3,7 @@
     <div class="col-md-12">
     <h1>Ecommerce seo</h1>
     <card class="card">
-    <p>With a unique and creative strategy for different Ecommerce websites, we have been running a successful campaign for all the Ecommerce websites. For Ecommerce SEO services, we do a proper research of the niche, perform a keyword research and analyics, and solve all the on-page errors before starting our Ecommerce seo campaign.</p></card></div>
+    <p>With a unique and creative strategy for different Ecommerce websites, we have been running a successful campaign for all the ecommerce websites. For ecommerce SEO services, we do proper research of the niche, perform keyword research and analytics, and solve all the on-page errors before starting our ecommerce SEO campaign.</p></card></div>
     <div class="col-md-12">
       <card class="card-chart">
         <template slot="header">
@@ -36,8 +36,8 @@
     <div class="col-lg-12">
       <card class="card">
     <h1>Why Us for Ecommerce SEO Services?</h1>
-    <p>We have worked on absolutely every ecommerce platform including Magento, Shopify, Woo-commerce and prestashop. We have worked on more then 10 Ecommerce project over last three years. We know, having an innovative SEO strategy does not really work for an Ecommerce store. In an Ecommerce website, we have to deal with thousands of pages and hundreds technical errors. So, we not only develop an SEO strategy but also sort all the on-page and technical SEO errors from a website.</p><br>
-    <p>Having an indepth technical errors solving skills help us to rank more keywords on the first page. Have a look at some of the facts that make us the best Ecommerce SEO company.</p><br>
+    <p>We have worked on absolutely every ecommerce platform including Magento, Shopify, Woo-commerce, and Prestashop. We have worked on more than 10 ecommerce projects over the last three years. We know, having an innovative SEO strategy does not work for an Ecommerce store. In an Ecommerce website, we have to deal with thousands of pages and hundreds of technical errors. So, we not only develop an SEO strategy but also sort all the on-page and technical SEO errors from a website.</p><br>
+    <p>Having in-depth technical errors solving skills help us to rank more keywords on the first page. Have a look at some of the facts that make us the best ecommerce SEO company.</p><br>
     <ul>
     <li>Technical Errors solving skills</li>
     <li>Familiar with all the Ecommerce platforms</li>
@@ -75,12 +75,9 @@
         >
           <h2 slot="header">What is technical error solving?</h2>
           <p slot="content">
-            If you have an Ecommerce website and set up Google search console then you might have noticed some on-page errors displayed there. Many times these errors are shown for the multiple pages. These errors make it difficult for the search engines to crawl whole page quickly, solving these error can really help search engines crawl a webpage quickly.
+            If you have an ecommerce website and set up a Google search console then you might have noticed some on-page errors displayed there. Many times these errors are shown for multiple pages. These errors make it difficult for the search engines to crawl the whole page quickly, solving these errors can really help search engines crawl a webpage quickly.
           </p>
-          <h6 slot="footer">
-            <i class="ti-time"></i> 11 hours ago via Twitter
-          </h6>
-        </time-line-item>
+          </time-line-item>
 
         <time-line-item
           inverted
@@ -89,7 +86,7 @@
         >
           <h2 slot="header">On-Page Implementations</h2>
           <p slot="content">
-            On-Page is one of the most important factors for an Ecommerce website especially when there are thousands of pages available. There are some of the basic of page changes that we do for all website and then anlyse how Google reacts towards the changes we have made.
+            On-Page is one of the most important factors for an Ecommerce website especially when there are thousands of pages available. There are some of the basics of page changes that we do for all websites and then analyze how Google reacts towards the changes we have made.
           </p>
         </time-line-item>
 
@@ -112,19 +109,19 @@
       <collapse :multiple-active="false" :active-index="0">
         <collapse-item title="What is Ecommerce SEO?">
           <div>
-            Ecommerce SEO is nothing but performing on-page and off-page seo tasks to make your online store more visible on the search engine and increaseing sales.
+            Ecommerce SEO is nothing but performing on-page and off-page SEO tasks to make your online store more visible on the search engine and increasing sales.
           </div>
         </collapse-item>
 
         <collapse-item title="How SEO can improve my sales?">
           <div>
-            Before starting SEO campaign, we perform a detailed keyword research and analysis for your Ecommerce store. We suggest you high search volume and potential keywords according to the package you have selected, and try to rank for those keywords. Once, your website starts ranking for the targeted keywords, your website starts getting more traffic and eventually sales also increases. For ecommerce SEO, we recommend keywords from which we can easily sell products online.
+            Before starting an SEO campaign, we perform detailed keyword research and analysis for your eCommerce store. We suggest you high search volume and potential keywords according to the package you have selected, and try to rank for those keywords. Once, your website starts ranking for the targeted keywords, your website starts getting more traffic, and eventually, sales also increase. For ecommerce SEO, we recommend keywords from which we can easily sell products online.
           </div>
         </collapse-item>
 
         <collapse-item title="What is keyword search volume?">
           <div>
-            We use multiple keywords research tools to finalize keywords. The keyword search volume each tool shows is the average monthly searches performed by the user. For example, a keyword with the search volume 720 means there are around 720 users seaching for a perticular keyword phrase in a month. In our ecommerce seo campaign, we try to target more keywords with the higher search volume with a view to getting more traffic from those keywords.
+            We use multiple keywords research tools to finalize keywords. The keyword search volume each tool shows is the average monthly searches performed by the user. For example, a keyword with a search volume of 720 means around 720 users is searching for a particular keyword phrase in a month. In our ecommerce SEO campaign, we try to target more keywords with higher search volume to get more traffic from those keywords.
           </div>
         </collapse-item>
       </collapse>
@@ -186,7 +183,7 @@
         </a>
 
         <p class="card-description">
-          Honestly, when these guys aproached me with the plan, i could not believe that ranking some keywords and selling products. But then I gave them a try and from the third month revenue of my Ecommerce website really increased and today I it has proved really beneficial for my website.
+          Honestly, when these guys approached me with the plan, I could not believe that ranking some keywords and selling products. But then I gave them a try and from the third-month revenue of my ecommerce website increased and today It has proved beneficial for my website.
         </p>
         <div class="icon icon-primary"><i class="fa fa-quote-right"></i></div>
 

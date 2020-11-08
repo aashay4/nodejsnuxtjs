@@ -3,7 +3,7 @@
     <div class="col-md-12">
     <h1>Local SEO Services</h1>
     <card class="card">
-    <p>Local SEO is the process of optimizing your online business website for local searches and generate leads from the surrounding areas of your online store. In most cases, local SEO the businesses that provide services in a limited rigion. Along with Google's SERP, we focus on ranking for Google maps as well.</p>
+    <p>Local SEO is the process of optimizing your online business website for local searches and generate leads from the surrounding areas of your online store. In most cases, local SEO businesses that provide services in a limited region. Along with Google's SERP, we focus on ranking for Google maps as well.</p>
   </card></div>
     <div class="col-md-12">
       <card class="card-chart">
@@ -37,8 +37,8 @@
     <div class="col-lg-12">
       <card class="card">
     <h1>Why Us for Local SEO Services?</h1>
-    <p>More then link building, Local SEO is all about on-page changes implementation and business listing on local sites. We have worked on several local business websites that are built with Joomla, Wordpress, Godaddy CMS and Wix. With an experience of several years and frameworks, we can rank your website on the Google SERP, maps and generate the best return of investment in the least amount of time.</p><br>
-    <p>Having an indepth technical errors solving skills helps us to rank more local keywords on the first page and Google maps. Have a look at some of the facts that make us the best Local SEO company.</p><br>
+    <p>More than link building, Local SEO is all about on-page changes implementation and business listing on local sites. We have worked on several local business websites that are built with Joomla, WordPress, Godaddy CMS, and Wix. With the experience of several years and frameworks, we can rank your website on the Google SERP, maps, and generate the best return of investment in the least amount of time.</p><br>
+    <p>Having in-depth technical errors solving skills helps us to rank more local keywords on the first page and Google maps. Have a look at some of the facts that make us the best Local SEO company.</p><br>
     <ul>
     <li>Technical Errors solving skills</li>
     <li>Familiar with all the CMS platforms</li>
@@ -76,7 +76,7 @@
         >
           <h2 slot="header">Who Should Opt For Local SEO Services?</h2>
           <p slot="content">
-            If you are running a business that is limited to a specific region, county or city then you should opt for the loca seo services. Using the innovative strategy, we help your website rank in the local search results and Google maps which are most preffered to generate healthy amount of leads for the local businesses. It also includes listing your bsiness website to different sites like Yelp and Google My Business.
+            If you are running a business that is limited to a specific region, county or city then you should opt for the local SEO services. Using the innovative strategy, we help your website rank in the local search results and Google maps which are most preferred to generate a healthy amount of leads for the local businesses. It also includes listing your business website to different sites like Yelp and Google My Business.
           </p>
           </time-line-item>
 
@@ -87,7 +87,7 @@
         >
           <h2 slot="header">On-Page Implementations</h2>
           <p slot="content">
-            On-Page is one of the most important factors for local business in most cases, more important then the link building. Having on-page changes implemented in a right way helps your website the most and eventually ends up in the quick results.
+            On-Page is one of the most important factors for local business in most cases, more important than the link building. Having on-page changes implemented in the right way helps your website the most and eventually ends up in quick results.
           </p>
         </time-line-item>
 
@@ -110,19 +110,19 @@
       <collapse :multiple-active="false" :active-index="0">
         <collapse-item title="What is Local SEO?">
           <div>
-            Local SEO is creating a unique strategy to rank your business website for the local keywords. Local SEO is helpful for various small business who provide their services around city or county.
+            Local SEO is creating a unique strategy to rank your business website for the local keywords. Local SEO is helpful for various small businesses that provide their services around the city or county.
           </div>
         </collapse-item>
 
         <collapse-item title="How long does it take to rank?">
           <div>
-            Normally, there is less competition in the local keywords. We work on all the keywords simantenously. It takes maximum three months to rank for 30% of the total keywords we are targeting. Time to get keywords ranking actually depend on the keywords seaarch volume and competition. But as said earlier, local keywords are not as competitive as the other keywords.
+            Normally, there is less competition in the local keywords. We work on all the keywords simultaneously. It takes a maximum of three months to rank for 30% of the total keywords we are targeting. Time to get keywords ranking actually depends on the keywords search volume and competition. But as said earlier, local keywords are not as competitive as the other keywords.
           </div>
         </collapse-item>
 
         <collapse-item title="Do you make web designing change?">
           <div>
-            Though you purchse local seo package but if we expect more leads by changing designs, we change the website design totally for free. We have a dedicated team of web developers who take care of website design update and all the on-page changes implementation. Along with web design, we also take care of click rate optimization(CRO).
+            Though you purchase a local SEO package if we expect more leads by changing designs, we change the website design totally for free. We have a dedicated team of web developers who take care of website design updates and all the on-page changes implementation. Along with web design, we also take care of click rate optimization(CRO).
           </div>
         </collapse-item>
       </collapse>

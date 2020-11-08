@@ -3,17 +3,17 @@
     <div class="col-md-12">
     <h1>Vuejs SEO</h1>
     <card class="card">
-    <p>Vue.js is a Javascript front-end framework which is round the corner since 2016 and has been growing since then. I have been working on Vuejs since 2018. I have worked on several Vuejs projects and made many other Vue websites SEO friendly. Apart from SEOJS, I have other three websites that are built with Vuejs. It is a great Javascript framework which has multiple functionlities which are similar to the functionalities of Angular and React.js. To implement the SEO changes on a vuejs app, you need to first understand working of Vuejs framework.</p><br>
+    <p>Vue.js is a Javascript front-end framework which is around the corner since 2016 and has been growing since then. I have been working on Vuejs since 2018. I have worked on several Vuejs projects and made many other Vue websites SEO friendly. Apart from SEOJS, I have other three websites that are built with Vuejs. It is a great Javascript framework that has multiple functionalities that are similar to the functionalities of Angular and React.js. To implement the SEO changes on a Vuejs app, you need to first understand the working of the Vuejs framework.</p><br>
     <h2>How Does a Vue.js App Work?</h2>
-    <p>If you have worked on a vue cli then you would probably know that there is just one HTML file which is located at the public directory on the project. Whenever a request is sent for any route is sent, first index.html file loads and the division with an ID of App renders dynamic content. This is great for internal page nevigation. But fact of the matter is Google and other search engines cannot read the dynamic content which is loaded once a request is sent. You can see that by pressing ctrl+u and you will find that for each route same HTML file's content is rendered. This is really bad for SEO, Google and other search engines cannot read this content and eventually it will get difficult for your website to rank better.</p><br>
+    <p>If you have worked on a vue cli then you would probably know that there is just one HTML file that is located in the public directory on the project. Whenever a request is sent for any route is sent, the first index.html file loads, and the division with an ID of App render dynamic content. This is great for internal page navigation. But the fact of the matter is Google and other search engines cannot read the dynamic content which is loaded once a request is sent. You can see that by pressing ctrl+u and you will find that for each route same HTML file's content is rendered. This is bad for SEO, Google and other search engines cannot read this content, and eventually it will get difficult for your website to rank better.</p><br>
     <h2>So, How to Render Content?</h2>
-    <p>There are two way to render content for any website built with Javascript frameworks:</p><br>
+    <p>There is two way to render content for any website built with Javascript frameworks:</p><br>
     <ul>
       <li>Pre-rendering (No back-end language or server required)</li><br>
-      <p>Perform pre-rendering for a website is easy compare to server-side rendering. Since there is no server side language is included, many front-end developers prefer pre-rendering more. There is already a npm package called prerender-spa available for pre-rendering. I have used pre-render spa plug in on my website and a few challenges I faced with pre-rendering. Initially, I had just around 15-20 routes so, everything worked fine but after a few months I started increasing pages on my website.</p><br>
-      <p>When I added more 30 routes on my website, pre-rendering process became really slow. For any singly change, I had to run build multiple times and it used to take around half an hour to update. So, I would recommend pre-rendering for a website with a few routes and not much dynamic routes or content. For more routes consider server-side rendering.</p><br>
+      <p>Perform pre-rendering for a website is easy to compare to server-side rendering. Since there is no server-side language is included, many front-end developers prefer pre-rendering more. There is already an npm package called prerender-spa available for pre-rendering. I have used a pre-render spa plug in on my website and a few challenges I faced with pre-rendering. Initially, I had just around 15-20 routes so, everything worked fine but after a few months, I started increasing pages on my website.</p><br>
+      <p>When I added more than 30 routes to my website, the pre-rendering process became slow. For any singly change, I had to run build multiple times and it used to take around half an hour to update. So, I would recommend pre-rendering for a website with a few routes and not much dynamic routes or content. For more routes consider server-side rendering.</p><br>
       <li>Server-side Rendering (node.js or any back-end language is required)</li><br>
-      <p>Server-side rendering is something thats done with the help of a back-end language. Node.js is the most preferred for server-side rendering but you can also consider other laguages as well. This may seem a difficult task if you are not familier with back-end language. If you do not want to perform it by your own then there are mutliple options available in the form of Nut.js & Quasar. These both are frameworks of Vue.js specifically built for SEO purposes. There are oboviously more uses of these frameworks but most developers use these frameworks for SEO.</p><br>
+      <p>Server-side rendering is something that's done with the help of a back-end language. Node.js is the most preferred for server-side rendering but you can consider other languages as well. This may seem a difficult task if you are not familiar with the back-end language. If you do not want to perform it on your own then there are multiple options available in the form of Nut.js & Quasar. These both are frameworks of Vue.js specifically built for SEO purposes. There are more uses of these frameworks but most developers use these frameworks for SEO.</p><br>
     </ul>
   </card></div>
     <div class="col-md-12">
@@ -48,11 +48,11 @@
     <div class="col-lg-12">
       <card class="card">
     <h1>Why SEOJS for Vuejs SEO Services?</h1>
-    <p>SEOJS has worked on several Vuejs projects in last couple of years and helped multiple organizations with the technical SEO services.</p><br>
-    <p>Having an indepth technical errors solving skills helps us to make Vuejs websites search friendly. Have a look at some of the facts that make us the best Vuejs SEO company.</p><br>
+    <p>SEOJS has worked on several Vuejs projects in the last couple of years and helped multiple organizations with technical SEO services.</p><br>
+    <p>Having in-depth technical errors solving skills helps us to make Vuejs websites search-friendly. Have a look at some of the facts that make us the best Vuejs SEO company.</p><br>
     <ul>
     <li>Technical Javascript Errors solving skills</li>
-    <li>Handled websites having more then 100 routes</li>
+    <li>Handled websites having more than 100 routes</li>
     <li>Ability to make all the On-page changes quickly</li>
     <li>We build a unique SEO strategy for each local business website based on the niche and keywords trend</li>
     <li>Result-oriented approach</li>
@@ -87,7 +87,7 @@
         >
           <h2 slot="header">Who Should Opt For Vuejs SEO Services?</h2>
           <p slot="content">
-            Answer is most probably, start ups or any other organization who has their website built with Vue.js. Optimizing a Vue.js website for SEO and making it search engines can be really helpful to rank for different keywords. Once your website ranks for the high search volume keywords, your websites gets more traffic and leds. Many start ups may not have funds for the marketing, in this scenario, opting for the SEO services can be affordable and a great opportunity to get exposure on digital platform.
+            The answer is most probably, startups or any other organization who has their website built with Vue.js. Optimizing a Vue.js website for SEO and making it search engines can be really helpful to rank for different keywords. Once your website ranks for the high search volume keywords, your websites get more traffic and lead. Many startups may not have funds for the marketing, in this scenario, opting for the SEO services can be affordable and a great opportunity to get exposure on the digital platform.
           </p>
           </time-line-item>
       </time-line>
@@ -109,13 +109,13 @@
       <collapse :multiple-active="false" :active-index="0">
         <collapse-item title="Why do I need an SEO company for Vue website?">
           <div>
-            Vue.js is a single page application framework which is not SEO friendly. By default it comes in a hash mode. Seach engines do not index URLs which contain hash in it. So, deploying Vuejs app with the default configuration will end up in indexing just a home page. In our Vue.js SEO services, we make URLs SEO friendly, add meta tags, check content rendering, and implemnt all the other basic on-page changes.
+            Vue.js is a single page application framework which is not SEO friendly. By default, it comes in a hash mode. Search engines do not index URLs that contain hash in it. So, deploying the Vuejs app with the default configuration will end up indexing just a home page. In our Vue.js SEO services, we make URLs SEO friendly, add meta tags, check content rendering, and implement all the other basic on-page changes.
           </div>
         </collapse-item>
 
         <collapse-item title="Do you make web designing change?">
           <div>
-            Though you purchse local seo package but if we expect more leads by changing designs, we change the website design totally for free. We have a dedicated team of web developers who take care of website design update and all the on-page changes implementation. Along with web design, we also take care of click rate optimization(CRO).
+            Though you purchase local SEO packages if we expect more leads by changing designs, we change the website design totally for free. We have a dedicated team of web developers who take care of website design updates and all the on-page changes implementation. Along with web design, we also take care of click rate optimization(CRO).
           </div>
         </collapse-item>
       </collapse>

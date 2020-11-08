@@ -163,6 +163,22 @@ export default {
       let isValidForm = await this.$validator.validateAll();
       if (isValidForm) {
         // TIP use this.model to send it to api and perform register call
+        alert(this.user.company);
+        this.$axios.post('/api/sendmail', {
+            email: this.user.email,
+            fullName: this.user.fullName,
+            message: this.user.message,
+            number: this.user.number
+          })
+          .then((response) => {
+            console.log(response);
+          })
+          .catch( (error) => {
+            console.log(error)
+            if(error.response.data.errors){
+              this.errors = error.response.data.errors
+            }
+          });
         let color = Math.floor(Math.random() * 4 + 1);
       this.$notify({
         message:

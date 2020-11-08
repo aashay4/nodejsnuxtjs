@@ -157,6 +157,13 @@ console.log(error);
                           socket.emit('brokenlinks', { status, href, url })
 })
 }
+if(href !== undefined && href.startsWith('http:')){
+  http.get(href, function(res) {
+    var status = res.statusCode;
+    //socket.emit('new-message', { href, url, status })
+    socket.emit('brokenlinks', { status, href, url })
+})
+}
 //                        console.log("href:" + ":" + href);
   //                      console.log("alt tag:" + ":" + alt);
 

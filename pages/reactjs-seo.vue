@@ -3,9 +3,9 @@
     <div class="col-md-12">
     <h1>React SEO</h1>
     <card class="card">
-    <p>Just like Angular and Vue, Reactjs is also a single page application framework which has just one HTML file and all the content is rendred dynamically inside of that HTML file. For that reason, it is really important to perform reactjs seo tasks and make start ups built with this framework SEO friendly to get the maximum number of leads and visibility on the digital platform.</p><br>
-    <p>Apart from that HTML file, react.js app has javascript files for the routes and components. So, it is not possible to add meta titles, descriptions, robots tag and canonical tags in the Javascript file. You need to install additional packages to perform these tasks. We have worked on three React websites and helped our clients to make their websites SEO friendly. We are famlier with all the additional packages that can be beneficial to make reactjs website seo friendly.</p><br>
-    <p>As said above, we have worked on three start ups made with React and made both of the websites SEO friendly. Check out our key achievements of Reactjs SEO services:</p>
+    <p>Just like Angular and Vue, Reactjs is also a single page application framework which has just one HTML file, and all the content is rendered dynamically inside of that HTML file. For that reason, it is really important to perform reactjs SEO tasks and make startups built with this framework SEO friendly to get the maximum number of leads and visibility on the digital platform.</p><br>
+    <p>Apart from that HTML file, the react.js app has javascript files for the routes and components. So, it is not possible to add meta titles, descriptions, robots tag, and canonical tags in the Javascript file. You need to install additional packages to perform these tasks. We have worked on three React websites and helped our clients to make their websites SEO friendly. We are familiar with all the additional packages that can be beneficial to make the reactjs website SEO friendly.</p><br>
+    <p>As said above, we have worked on three startups made with React and made both of the websites SEO friendly. Check out our key achievements of Reactjs SEO services:</p>
   </card></div>
     <div class="col-md-12">
       <card class="card-chart">
@@ -39,11 +39,11 @@
     <div class="col-lg-12">
       <card class="card">
     <h1>Why Us for React SEO Services?</h1>
-    <p>More then link building, off-page seo and backlinks analysis, React SEO is all about implemnting all the necessary on-page changes. For example, all react apps have hash tag in their URL and Google do not index URLs with hash tag. So, first of all, you need to remove hash tag from the URL and implement the history mode. Along with that, many of the reactjs websites face content rendering issues. To render content perfectly, you need to implement either server-side rendering or pre-rendering which is also known as client-side rendering.</p><br>
-    <p>Having technical errors solving skills helps us to rank more more keywords on the first page. Have a look at some of the facts that make us the best React SEO Company.</p><br>
+    <p>More than link building, off-page SEO and backlinks analysis React SEO is all about implementing all the necessary on-page changes. For example, all react apps have a hashtag in their URL and Google does not index URLs with the hashtag. So, first of all, you need to remove the hashtag from the URL and implement the history mode. Along with that, many of the reactjs websites face content rendering issues. To render content perfectly, you need to implement either server-side rendering or pre-rendering which is also known as client-side rendering.</p><br>
+    <p>Having technical errors solving skills helps us to rank more keywords on the first page. Have a look at some of the facts that make us the best React SEO Company.</p><br>
     <ul>
     <li>Technical Errors solving skills from Google search console</li>
-    <li>Familiar with Pre-rendering, server-side rendering and all other server-side rendering framework next.js</li>
+    <li>Familiar with Pre-rendering, server-side rendering, and all other server-side rendering framework next.js</li>
     <li>Ability to make On-page changes quickly</li>
     <li>We build a unique SEO strategy for each business website based on the niche and keywords trend</li>
     <li>Result-oriented approach</li>
@@ -78,7 +78,7 @@
         >
           <h2 slot="header">Who Should Opt For React SEO Services?</h2>
           <p slot="content">
-            As the recent trends suggest, Reactjs is widely used for the development of both web applications, websites and innovative blogs. Talking about the websites and blogs, SEO plays a huge role if you want to be seen on the Google and all the other search engines. By targeting high search volume keywords, we can bring flood of traffic to your website or blog. If your start up provides any kind of online service or sells digital product then SEO can be really beneficial to increase online leads and sales.
+            As the recent trends suggest, Reactjs is widely used for the development of both web applications, websites, and innovative blogs. Talking about the websites and blogs, SEO plays a huge role if you want to be seen on Google and all the other search engines. By targeting high search volume keywords, we can bring a flood of traffic to your website or blog. If your start-up provides any kind of online service or sells digital products then SEO can be beneficial to increase online leads and sales.
           </p>
           </time-line-item>
       </time-line>
@@ -100,13 +100,13 @@
       <collapse :multiple-active="false" :active-index="0">
         <collapse-item title="How does SEO help my business?">
           <div>
-            Making on-page changes is not enough to rank in Google and get leads for your business. In our SEO campaign, firstly we do a detailed keyword research and analysis and then start optimizing your website for those keywords. Once, the keywords start ranking on the Google SERP first page, eventually traffic and leads also increases.
+            Making on-page changes is not enough to rank in Google and get leads for your business. In our SEO campaign, firstly we do detailed keyword research and analysis and then start optimizing your website for those keywords. Once, the keywords start ranking on the Google SERP first page, eventually traffic and leads also increases.
           </div>
         </collapse-item>
 
         <collapse-item title="How long does it take to rank?">
           <div>
-            Normally, there is less competition in the local keywords. We work on all the keywords simantenously. It takes maximum three months to rank for 30% of the total keywords we are targeting. Time to get keywords ranking actually depend on the keywords seaarch volume and competition. But as said earlier, local keywords are not as competitive as the other keywords.
+            Normally, there is less competition in the local keywords. We work on all the keywords simultaneously. It takes a maximum of three months to rank for 30% of the total keywords we are targeting. Time to get keywords ranking depends on the keywords search volume and competition. But as said earlier, local keywords are not as competitive as the other keywords.
           </div>
         </collapse-item>
 

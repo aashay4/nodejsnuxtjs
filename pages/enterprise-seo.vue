@@ -3,7 +3,7 @@
     <div class="col-md-12">
     <h1>Enterprise SEO Services</h1>
     <card class="card">
-    <p>Enterprise SEO is building a comprehensive SEO strategy for large organizations and targeting high search volume keywords to maximize leads from the digital platform. Enterpise SEO is not as simple as local SEO. An SEO agnecy must be aware of the latest trends and having an experience of working in varios techniologies and frameworks. In last five years, we have worked on more then 20 tecnologies and generated hundreds of thousands leads for our clients. Have a look at the leads we have delivered in last six months.</p>
+    <p>Enterprise SEO is building a comprehensive SEO strategy for large organizations and targeting high search volume keywords to maximize leads from the digital platform. Enterprise SEO is not as simple as local SEO. An SEO agency must be aware of the latest trends and having experience working in various technologies and frameworks. In the last five years, we have worked on more than 20 technologies and generated hundreds of thousands of leads for our clients. Have a look at the leads we have delivered in the last six months.</p>
   </card></div>
     <div class="col-md-12">
       <card class="card-chart">
@@ -37,7 +37,7 @@
     <div class="col-lg-12">
       <card class="card">
     <h1>Why Us for Enterprise SEO Services?</h1>
-    <p>Enterprise SEO is all about creating a unique SEO strategy, understadning technology or framework a website is built with and implementing all the necessary changes quickly. Apart from that, keyword research makes a huge impact on enterprise seo to deliver leads for the business. We usually target the keywords with higher search volume. A keyword with higher search volume brings more traffic to the website and eventually it increases the lead generation chances.</p><br>
+    <p>Enterprise SEO is all about creating a unique SEO strategy, understanding the technology or framework a website is built with, and implementing all the necessary changes quickly. Apart from that, keyword research makes a huge impact on enterprise SEO to deliver leads for the business. We usually target the keywords with higher search volume. A keyword with higher search volume brings more traffic to the website and eventually it increases the lead generation chances.</p><br>
     <div class="col-md-12 ml-auto">
       <card>
         <div class="text-center">
@@ -48,7 +48,7 @@
         </div>
       </card>
     </div>
-    <p>Having an indepth technical errors solving skills helps us to rank more keywords for the enterpises on the first page and Google maps. Have a look at some of the facts that make us the best Enterprse SEO company.</p><br>
+    <p>Having in-depth technical errors solving skills helps us to rank more keywords for the enterprises on the first page and Google maps. Have a look at some of the facts that make us the best Enterprise SEO company.</p><br>
     <ul>
     <li>Technical Errors solving skills</li>
     <li>Familiar with all the CMS platforms</li>
@@ -86,7 +86,7 @@
         >
           <h2 slot="header">Who Should Opt For Enterprise SEO Services?</h2>
           <p slot="content">
-            Mostly, big enterprises opt for this service. In enterprise SEO services, we target hundreds of keywords and try to rank most of them on the first page. Most companies with higher budget opt for the enterprise SEO services. If your company provides multiple services or sells many products, you should go with this service. Because, optimizing more keywords for different services or products can be beneficial for your business from the digital platform.
+            Mostly, big enterprises opt for this service. In enterprise SEO services, we target hundreds of keywords and try to rank most of them on the first page. Most companies with higher budgets opt for enterprise SEO services. If your company provides multiple services or sells many products, you should go with this service. Because optimizing more keywords for different services or products can be beneficial for your business from the digital platform.
           </p>
           </time-line-item>
 
@@ -109,19 +109,19 @@
       <collapse :multiple-active="false" :active-index="0">
         <collapse-item title="What is Enterprise SEO?">
           <div>
-            Enterprise SEO is optizing an enterprise website for more leads, website engagement and reputation building on the digital platform. We recommend this service only if you provide multiple services or sell a huge amount of products online.
+            Enterprise SEO is optimizing an enterprise website for more leads, website engagement, and reputation building on the digital platform. We recommend this service only if you provide multiple services or sell a huge amount of products online.
           </div>
         </collapse-item>
 
         <collapse-item title="How long does it take to rank?">
           <div>
-            Normally, there is less competition in the local keywords. We work on all the keywords simantenously. It takes maximum three months to rank for 30% of the total keywords we are targeting. Time to get keywords ranking actually depend on the keywords seaarch volume and competition. But as said earlier, local keywords are not as competitive as the other keywords.
+            Normally, there is less competition in the local keywords. We work on all the keywords simultaneously. It takes a maximum of three months to rank for 30% of the total keywords we are targeting. Time to get keywords ranking depends on the keywords search volume and competition. But as said earlier, local keywords are not as competitive as the other keywords.
           </div>
         </collapse-item>
 
         <collapse-item title="Do you make web designing change?">
           <div>
-            Though you purchse enterprise seo package but if we expect more leads by changing designs, we change the website design totally for free. We have a dedicated team of web developers who take care of website design update and all the on-page changes implementation. Along with web design, we also take care of click rate optimization(CRO).
+            Though you purchase an enterprise SEO package if we expect more leads by changing designs, we change the website design totally for free. We have a dedicated team of web developers who take care of website design updates and all the on-page changes implementation. Along with web design, we also take care of click rate optimization(CRO).
           </div>
         </collapse-item>
       </collapse>
