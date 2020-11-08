@@ -7,16 +7,17 @@
       <button type="button" class="btn btn-sm btn-info" name="button" @click="senddomain">Check Domain</button></div>
     </div><br>
     <!--<button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing1 = 0; isShowing0 ^= true; isshowing = 0; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing8 = 0; isShowing7 = 0">All website Links</button>-->
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing1 = 0; isShowing0 = 0; isShowing ^= true; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing8 = 0; isShowing9 = 0; isShowing7 = 0">Page Speed</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing = 0; isShowing1 ^= true; isShowing0 = 0; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing8 = 0; isShowing7 = 0">Description</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing2 ^= true; isShowing = 0; isShowing1 = 0; isShowing0 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing9 = 0; isShowing8 = 0; isShowing6 = 0; isShowing7 = 0">Title</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 ^= true; isShowing = 0; isShowing1 = 0; isShowing2 = 0; isShowing0 = 0; isShowing4 = 0; isShowing8 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing7 = 0">H2</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing4 ^= true; isShowing1 = 0; isShowing2 = 0; isShowing0 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing8 = 0; isShowing7 = 0">Canonical</button>
+    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing1 = 0; isShowing0 = 0; isShowing ^= true; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing8 = 0; isShowing9 = 0; isShowing7 = 0">Page Speed Check</button>
+    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing7 = 0; isShowing9 ^= true; isShowing6 = 0; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0; isShowing8 = 0">Page Size</button>
+    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing = 0; isShowing1 ^= true; isShowing0 = 0; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing8 = 0; isShowing7 = 0">Meta Description</button>
+    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing2 ^= true; isShowing = 0; isShowing1 = 0; isShowing0 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing9 = 0; isShowing8 = 0; isShowing6 = 0; isShowing7 = 0">Meta Title</button>
+    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing6 ^= true; isShowing1 = 0; isShowing2 = 0; isShowing9 = 0; isShowing8 = 0; isShowing4 = 0; isShowing0 = 0; isShowing7 = 0">Protocol & Response</button>
+    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing4 ^= true; isShowing1 = 0; isShowing2 = 0; isShowing0 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing8 = 0; isShowing7 = 0">Canonical Tag</button>
     <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 ^= true; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0; isShowing9 = 0; isShowing8 = 0; isShowing6 = 0; isShowing7 = 0">Keywords</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing6 ^= true; isShowing1 = 0; isShowing2 = 0; isShowing9 = 0; isShowing8 = 0; isShowing4 = 0; isShowing0 = 0; isShowing7 = 0">Protocol</button>
     <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing7 ^= true; isShowing6 = 0; isShowing9 = 0; isShowing8 = 0; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0">H1</button>
     <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing7 = 0; isShowing8 ^= true; isShowing9 = 0; isShowing6 = 0; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0">Images</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing7 = 0; isShowing9 ^= true; isShowing6 = 0; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0; isShowing8 = 0">Page Size</button>
+    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 ^= true; isShowing = 0; isShowing1 = 0; isShowing2 = 0; isShowing0 = 0; isShowing4 = 0; isShowing8 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing7 = 0">H2 Tag</button>
+
 
     <div class="row mt-5" v-show="isShowing9">
       <div class="col-12">
@@ -862,6 +863,20 @@ import swal from 'sweetalert2';
 
 export default {
   name: 'paginated',
+  head() {
+  // sets document title
+  return {
+  title: 'SEO Analyzer Tool',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'With our SEO Analyzer, analyze your websites Meta title, description, page loading speed and HTML file size with ease. Try SEO Analyzer now.'}
+  ],
+  link: [
+  {rel: 'canonical', href: 'http://localhost:3000/seo-analyzer'}
+  ]
+  }
+  },
   components: {
     BasePagination,
     [Select.name]: Select,
@@ -1359,19 +1374,24 @@ export default {
           minWidth: 200
         },
         {
-          prop: 'downloadtime',
-          label: 'downloadtime',
-          minWidth: 200
-        },
-        {
-          prop: 'requesttime',
-          label: 'requesttime',
+          prop: 'actualdatasize',
+          label: 'actualdatasize',
           minWidth: 100
         },
         {
-          prop: 'actualdatasize',
-          label: 'actualdatasize',
-          minWidth: 120
+          prop: 'downloadtime',
+          label: 'downloadtime',
+          minWidth: 100
+        },
+        {
+          prop: 'requestLatency',
+          label: 'requestLatency',
+          minWidth: 100
+        },
+        {
+          prop: 'requesttime',
+          label: 'Total Time',
+          minWidth: 100
         },
         {
           prop: 'verdict',

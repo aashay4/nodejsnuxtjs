@@ -136,6 +136,20 @@
 import { Modal, BaseAlert } from '@/components';
 
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Website SEO Checker',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: ''}
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://seojs.co/seo-checker'}
+  ]
+  }
+  },
   data() {
     return {
       type: ['', 'info', 'success', 'warning', 'danger'],

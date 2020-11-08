@@ -198,6 +198,20 @@ import {
   BaseCheckbox
 } from '@/components';
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Best Local SEO Services | Local SEO Company',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: ''}
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://seojs.co/local-seo'}
+  ]
+  }
+  },
   components: {
     LineChart,
     TabPane,

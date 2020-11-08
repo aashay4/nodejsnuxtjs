@@ -213,6 +213,20 @@ import {
   BaseCheckbox
 } from '@/components';
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Ecommerce SEO Services: Improve Revenue for Your Online Store',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'With innovative Ecommerce SEO Strategies, we have helped several Ecommerce businesses to increase their revenue. Visit here and increase the revenue of your business well.'}
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://seojs.co/ecommerce-seo'}
+  ]
+  }
+  },
   components: {
     LineChart,
     TabPane,

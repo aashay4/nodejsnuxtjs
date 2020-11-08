@@ -10,6 +10,22 @@
 </template>
 
 <script>
+  export default {
+head() {
+// sets document title
+return {
+title: 'Web Scraper Development',
+// optional; sets final title as "Index Page - My Website", useful for multiple level meta
+// meta tags
+meta: [
+    { hid: 'description', name: 'description', content: ''}
+],
+link: [
+{rel: 'canonical', href: 'https://seojs.co/web-scraper-development'}
+]
+}
+}
+}
 </script>
 
 <style lang="css">

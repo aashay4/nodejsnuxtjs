@@ -192,6 +192,20 @@ import {
   BaseCheckbox
 } from '@/components';
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Vuejs SEO',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: ''}
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://seojs.co/vuejs-seo'}
+  ]
+  }
+  },
   components: {
     LineChart,
     TabPane,

@@ -194,6 +194,20 @@ import {
   BaseCheckbox
 } from '@/components';
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Angular SEO Services: Rank Your Angular Website Easily',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'Built your website using Angular? We are here to help you to make your angular website SEO friendly!'  }
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://seojs.co/angular-seo'}
+  ]
+  }
+  },
   components: {
     LineChart,
     TabPane,

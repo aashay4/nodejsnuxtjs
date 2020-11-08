@@ -197,6 +197,20 @@ import {
   BaseCheckbox
 } from '@/components';
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Enterprise SEO Services: Grow Your Business With Best SEO Services',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: ''}
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://seojs.co/enterprise-seo'}
+  ]
+  }
+  },
   components: {
     LineChart,
     TabPane,

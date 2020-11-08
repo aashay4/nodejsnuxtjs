@@ -138,6 +138,20 @@ import { Modal, BaseAlert } from '@/components';
 import { TimeSelect, DatePicker, Select, Option } from 'element-ui';
 
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'SEO Packages',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: ''}
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://seojs.co/seo-packages'}
+  ]
+  }
+  },
   components: {
     [Option.name]: Option,
     [Select.name]: Select

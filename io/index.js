@@ -383,8 +383,9 @@ crawler1.on("fetchcomplete", function(queueItem, responseBuffer, response) {
     var last_element = acc[acc.length - 1];
     console.log(last_element);
     //console.log(response);
-    var downloadtime = queueItem.stateData.downloadTime/1000 + 1;
+    var downloadtime = queueItem.stateData.downloadTime/1000 + 3;
     var requesttime = queueItem.stateData.requestTime/1000 + 3;
+    var requestLatency = queueItem.stateData.requestLatency/1000 + 3;
     //console.log("Request time" + ":" + requesttime);
     //console.log("Download time" + ":" + downloadtime);
     var actualdatasize = queueItem.stateData.actualDataSize;
@@ -394,18 +395,18 @@ crawler1.on("fetchcomplete", function(queueItem, responseBuffer, response) {
     {
     verdict = "slow"
 //    console.log(verdict);
-    socket.emit('queueItem2', { downloadtime, requesttime, actualdatasize, url, verdict })
+    socket.emit('queueItem2', { requestLatency, downloadtime, requesttime, actualdatasize, url, verdict })
     }
     else if(requesttime < 5 && requesttime > 4)
     {
     verdict = "medium"
   //  console.log(verdict);
-      socket.emit('queueItem2', { downloadtime, requesttime, actualdatasize, url, verdict })
+      socket.emit('queueItem2', { requestLatency, downloadtime, requesttime, actualdatasize, url, verdict })
     }
     else if(requesttime < 4){
       verdict = "fast"
     //  console.log(verdict);
-      socket.emit('queueItem2', { downloadtime, requesttime, actualdatasize, url, verdict })
+      socket.emit('queueItem2', { requestLatency, downloadtime, requesttime, actualdatasize, url, verdict })
     }
     else{
       console.log(requesttime);

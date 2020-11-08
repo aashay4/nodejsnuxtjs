@@ -156,6 +156,20 @@ import Fuse from 'fuse.js';
 import swal from 'sweetalert2';
 
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Broken Link Checker Tool',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'Find out all the 404 broken links on your domain with this really simple broken link checker tool.'}
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://seojs.co/broken-link-checker'}
+  ]
+  }
+  },
   name: 'paginated',
   components: {
     BasePagination,

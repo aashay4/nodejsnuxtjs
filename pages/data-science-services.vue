@@ -153,6 +153,20 @@ import {
   BaseCheckbox
 } from '@/components';
 export default {
+  head() {
+  // sets document title
+  return {
+  title: 'Data Science Services',
+  // optional; sets final title as "Index Page - My Website", useful for multiple level meta
+  // meta tags
+  meta: [
+      { hid: 'description', name: 'description', content: 'Get the best data science services with detailed business analysis, data mining, machine learning, and web scraping. Visit our website and get more information.'}
+  ],
+  link: [
+  {rel: 'canonical', href: 'https://seojs.co/data-science-services'}
+  ]
+  }
+  },
   components: {
     LineChart,
     TabPane,
