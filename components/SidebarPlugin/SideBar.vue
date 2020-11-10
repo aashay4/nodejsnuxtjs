@@ -4,7 +4,7 @@
     <div class="sidebar-wrapper">
       <div class="logo">
         <a href="" class="simple-text logo-mini">
-          <img :src="logo" alt="app-logo" />
+          <img src="img/e9b4f1b4-0fd3-4782-8b5e-54e1f330db99_200x200.png" alt="seojs-logo" />
         </a>
         <a href="https://seojs.co/" class="simple-text logo-normal">
           SEOJS
@@ -97,8 +97,8 @@ export default {
   props: {
     logo: {
       type: String,
-      default: 'https://demos.creative-tim.com/nuxt-black-dashboard-pro/img/icon-nuxt.svg',
-      description: 'Sidebar app logo'
+      default: 'img//e9b4f1b4-0fd3-4782-8b5e-54e1f330db99_200x200',
+      description: 'SEOJS Logo'
     },
     backgroundColor: {
       type: String,

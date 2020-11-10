@@ -15,7 +15,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Nuxt Black Dashboard PRO',
+    title: 'SEOJS App',
     meta: [
       { charset: 'utf-8' },
       { hid: 'robots', name: 'robots', content: 'noindex,nofollow' },
@@ -23,7 +23,7 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      //{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800'},
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'}
     ],
@@ -31,6 +31,9 @@ export default {
       class: 'sidebar-mini' // delete the class to have the sidebar expanded by default. Add `white-content` class here to enable "white" mode.
     }
   },
+  pwa: {
+   icon: false // disables the icon module
+ },
   router: {
     linkExactActiveClass: 'active'
   },
