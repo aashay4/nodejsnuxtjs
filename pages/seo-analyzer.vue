@@ -17,7 +17,7 @@
     <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing7 = 0; isShowing8 ^= true; isShowing9 = 0; isShowing6 = 0; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0">Images</button>
     <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 ^= true; isShowing = 0; isShowing1 = 0; isShowing2 = 0; isShowing0 = 0; isShowing4 = 0; isShowing8 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing7 = 0">H2 Tag</button><br><br>
     <div class="">
-      <h4>Since we get a lot of dynamic data, we encourage you to use this tool on bigger devices.</h4>
+      <h4>Since we get a lot of dynamic data, we encourage you to use SEO Analyzer on bigger devices.</h4>
     </div>
 
     <div class="row mt-5" v-show="isShowing9">
