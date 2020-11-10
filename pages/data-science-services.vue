@@ -93,8 +93,8 @@
   <div class="col-md-12">
     <card>
       <template slot="header">
-        <h5 class="card-category">Collapse Example</h5>
-        <h3 class="card-title">Collapsible Accordion</h3>
+        <h5 class="card-category">FAQ</h5>
+        <h3 class="card-title">Queries regarding data science services</h3>
       </template>
 
       <collapse :multiple-active="false" :active-index="0">

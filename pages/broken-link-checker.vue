@@ -2,7 +2,7 @@
   <div class="content">
     <div class="col-md-8 ml-auto mr-auto">
       <h2 class="text-center">Broken Link Checker</h2>
-      <div style="margin-left: 30%">
+      <div class="">
       <input type="text" placeholder="Enter a Domain" v-model="domain" value="" @keyup.enter="senddomain">
       <button type="button" class="btn btn-sm btn-info" name="button" @click="senddomain">Check Domain</button></div><br>
       <p class="text-center">

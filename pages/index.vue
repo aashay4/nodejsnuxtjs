@@ -365,9 +365,9 @@
             </div>
           </div>
             <div class="col-md-6 ml-auto mr-auto text-center">
-            <h1 class="title">Pick the best plan for you</h1>
+            <h1 class="title">Contact Us</h1>
             <h4 class="description">
-              You have Free Unlimited Updates and Premium Support on each package.
+              Contact us for the best SEO Services
             </h4>
           </div>
           <div class=""><edit-profile-form> </edit-profile-form></div>
