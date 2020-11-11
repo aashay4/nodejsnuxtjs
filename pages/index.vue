@@ -422,7 +422,7 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'SEO services: Get Affordable Searc Engine Optimization Services',
+  title: 'SEO services: Get Affordable Search Engine Optimization Services',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
