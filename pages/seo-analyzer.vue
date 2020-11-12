@@ -95,7 +95,7 @@
     <div class="row mt-5" v-show="isShowing6">
       <div class="col-12">
         <card card-body-classes="table-full-width">
-          <h4 slot="header" class="card-title">Protocol</h4>
+          <h4 slot="header" class="card-title">Protocol & Response</h4>
           <div>
             <div
               class="col-12 d-flex justify-content-center justify-content-sm-between flex-wrap"
@@ -152,7 +152,7 @@
               class="pagination-no-border"
               v-model="pagination6.currentPage"
               :per-page="pagination6.perPage"
-              :total="total"
+              :total="total6"
             >
             </base-pagination>
           </div>
@@ -433,75 +433,6 @@
         </card>
       </div>
     </div>
-
-    <div class="row mt-5" v-show="isShowing4">
-      <div class="col-12">
-        <card card-body-classes="table-full-width">
-          <h4 slot="header" class="card-title">Canonical</h4>
-          <div>
-            <div
-              class="col-12 d-flex justify-content-center justify-content-sm-between flex-wrap"
-            >
-              <el-select
-                class="select-primary mb-3 pagination-select"
-                v-model="pagination4.perPage"
-                placeholder="Per page"
-              >
-                <el-option
-                  class="select-primary"
-                  v-for="item in pagination4.perPageOptions"
-                  :key="item"
-                  :label="item"
-                  :value="item"
-                >
-                </el-option>
-              </el-select>
-
-              <base-input>
-                <el-input
-                  type="search"
-                  class="mb-3 search-input"
-                  clearable
-                  prefix-icon="el-icon-search"
-                  placeholder="Search records"
-                  v-model="searchQuery4"
-                  aria-controls="datatables"
-                >
-                </el-input>
-              </base-input>
-            </div>
-            <el-table :data="queriedData4">
-              <el-table-column
-                v-for="column in tableColumns4"
-                :key="column.label"
-                :min-width="column.minWidth"
-                :prop="column.prop"
-                :label="column.label"
-              >
-              </el-table-column>
-            </el-table>
-          </div>
-          <div
-            slot="footer"
-            class="col-12 d-flex justify-content-center justify-content-sm-between flex-wrap"
-          >
-            <div class="">
-              <p class="card-category">
-                Showing {{ from4 + 1 }} to {{ to4 }} of {{ total4 }} entries
-              </p>
-            </div>
-            <base-pagination
-              class="pagination-no-border"
-              v-model="pagination4.currentPage"
-              :per-page="pagination4.perPage"
-              :total="total"
-            >
-            </base-pagination>
-          </div>
-        </card>
-      </div>
-    </div>
-
 
 
     <div class="row mt-5" v-show="isShowing8">
@@ -850,10 +781,8 @@
     </div>
     <h1 slot="header" class="card-title">About SEO Analyzer tool</h1>
     <p>
-      SEO Analyzer is an online tool to analyze meta title, description, canonical tags, H1, page loading speed, page length and meta keywords of each route on the domain you have inserted.
+      SEO Analyzer is an online tool to analyze meta title, description, canonical tags, H1, page loading speed, page length and meta keywords of each route on the domain you have inserted. Along with that, it is a progressive web application which you can install on your local machine as a progressive web application. This SEO audit tool installs in just a couple of seconds and occupies just 3 KB memory.
     </p>
-
-
   </div></template>
 <script>
 import socket from '~/plugins/socket.io.js'
@@ -867,14 +796,14 @@ export default {
   head() {
   // sets document title
   return {
-  title: 'SEO Analyzer Tool',
+  title: 'SEO Analyzer Tool: A free SEO Audit Tool',
   // optional; sets final title as "Index Page - My Website", useful for multiple level meta
   // meta tags
   meta: [
-      { hid: 'description', name: 'description', content: 'With our SEO Analyzer, analyze your websites Meta title, description, page loading speed and HTML file size with ease. Try SEO Analyzer now.'}
+      { hid: 'description', name: 'description', content: 'With our SEO Analyzer, analyze your websites Meta title, description, page loading speed and HTML file size with ease. Try this free seo audit tool now.'}
   ],
   link: [
-  {rel: 'canonical', href: 'https://seojs.co/seo-analyzer	'}
+  {rel: 'canonical', href: 'https://seojs.co/seo-analyzer'}
   ]
   }
   },
@@ -1147,67 +1076,67 @@ export default {
       isShowing8: false,
       isShowing9: false,
       pagination9: {
-        perPage: 100,
+        perPage: 50,
         currentPage: 1,
         perPageOptions: [5, 10, 25, 50, 100, 500],
         total: 0
       },
       pagination6: {
-        perPage: 100,
+        perPage: 50,
         currentPage: 1,
         perPageOptions: [5, 10, 25, 50, 100, 500],
         total: 0
       },
       pagination5: {
-        perPage: 100,
+        perPage: 50,
         currentPage: 1,
         perPageOptions: [5, 10, 25, 50, 100, 500],
         total: 0
       },
       pagination7: {
-        perPage: 100,
+        perPage: 50,
         currentPage: 1,
         perPageOptions: [5, 10, 25, 50, 100, 500],
         total: 0
       },
       pagination3: {
-        perPage: 100,
+        perPage: 50,
         currentPage: 1,
         perPageOptions: [5, 10, 25, 50, 100, 500],
         total: 0
       },
       pagination4: {
-        perPage: 100,
+        perPage: 50,
         currentPage: 1,
         perPageOptions: [5, 10, 25, 50, 100, 500],
         total: 0
       },
       pagination8: {
-        perPage: 100,
+        perPage: 50,
         currentPage: 1,
         perPageOptions: [5, 10, 25, 50, 100, 500],
         total: 0
       },
       pagination0: {
-        perPage: 100,
+        perPage: 50,
         currentPage: 1,
         perPageOptions: [5, 10, 25, 50, 100, 500],
         total: 0
       },
       pagination: {
-        perPage: 100,
+        perPage: 50,
         currentPage: 1,
         perPageOptions: [5, 10, 25, 50, 100, 500],
         total: 0
       },
       pagination1: {
-        perPage: 100,
+        perPage: 50,
         currentPage: 1,
         perPageOptions: [5, 10, 25, 50, 100, 500],
         total: 0
       },
       pagination2: {
-        perPage: 100,
+        perPage: 50,
         currentPage: 1,
         perPageOptions: [5, 10, 25, 50, 100, 500],
         total: 0
@@ -1269,6 +1198,11 @@ export default {
             label: 'actualdatasize',
             minWidth: 100
           },
+          {
+            prop: 'sizeverdict',
+            label: 'verdict',
+            minWidth: 100
+          }
           ],
       tableColumns5: [
         {
@@ -1321,12 +1255,12 @@ export default {
         {
           prop: 'urlfinal',
           label: 'url',
-          minWidth: 400
+          minWidth: 300
         },
         {
           prop: 'canonical',
           label: 'canonical',
-          minWidth: 100
+          minWidth: 300
         },
         {
           prop: 'canonicalverdict',
@@ -1381,17 +1315,17 @@ export default {
         },
         {
           prop: 'downloadtime',
-          label: 'downloadtime',
+          label: 'downloadtime(secs)',
           minWidth: 100
         },
         {
           prop: 'requestLatency',
-          label: 'requestLatency',
+          label: 'requestLatency(secs)',
           minWidth: 100
         },
         {
           prop: 'requesttime',
-          label: 'Total Time',
+          label: 'Total Time(secs)',
           minWidth: 100
         },
         {

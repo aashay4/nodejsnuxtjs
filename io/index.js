@@ -426,7 +426,15 @@ var $ = response.$;
 var title = $("title").text();
 var titlelength;
 datasize = response.body.length;
-socket.emit('queueItem3', { datasize, requesttime, actualdatasize, url })
+var sizeverdict = ""
+if(actualdatasize > 33000){
+sizeverdict = "over 33 KB"
+socket.emit('queueItem3', { sizeverdict, datasize, requesttime, actualdatasize, url })
+}
+else{
+  sizeverdict = "ideal size"
+  socket.emit('queueItem3', { sizeverdict, datasize, requesttime, actualdatasize, url })
+}
 var titlelengthverdict;
 var description = $("meta[name=description]").attr("content");
 var descriptionlength;
@@ -453,9 +461,9 @@ if(!description)
   descriptionlength = "0";
   descriptionverdict = "missing"
 }
-else if(description.length > 155){
+else if(description.length > 160){
   descriptionlength = description.length;
-  descriptionverdict = "over 155 characters"
+  descriptionverdict = "over 160 characters"
 }
 else if(description.length < 60) {
   descriptionlength = description.length;
