@@ -6,7 +6,7 @@
         <template slot="header">
           <div class="row">
             <div class="col-sm-6">
-              <h5 class="card-category">About Our SEO Services</h5>
+              <h5 class="card-category">Stay Ahead and Above With Our SEO Services</h5>
               <h2 class="card-title">Our Achievements</h2>
             </div>
             <div class="col-sm-6 d-flex d-sm-block">
@@ -70,7 +70,7 @@
     <div class="col-lg-4 mr-auto">
       <card class="card-chart card-chart-pie">
         <template slot="header">
-          <h5 class="card-category">Different Frameworks/Technologies We Have Made Search Friendly</h5>
+          <h5 class="card-category">Different Frameworks/Technologies We Made Search Friendly</h5>
           <h3 class="card-title">
             <i class="tim-icons icon-laptop text-info "></i> 31
           </h3>
@@ -253,7 +253,7 @@
             <div class="col-md-6 ml-auto mr-auto text-center">
               <h1 class="title">Pick the best plan for you</h1>
               <h4 class="description">
-                You have Free Unlimited Updates and Premium Support on each package.
+                You have Premium Support and full on-page and design changes implementation on each package.
               </h4>
             </div>
           </div><br>

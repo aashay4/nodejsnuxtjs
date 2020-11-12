@@ -143,7 +143,7 @@
           <p class="plan">One time audit report and suggestions</p>
         </div>
         <base-button slot="footer" round type="primary" class="btn-just-icon">
-          Get started
+          <nuxt-link to="/seo-packages"><a href="/seo-packages" style="color: white"> <b>Get started</b></a></nuxt-link>
         </base-button>
       </card>
     </div>
@@ -168,7 +168,7 @@
           <p class="plan">SEO+on-page monthly recurring</p>
         </div>
         <base-button slot="footer" round type="primary" class="btn-just-icon">
-          Get started
+          <nuxt-link to="/seo-packages"><a href="/seo-packages" style="color: white"> <b>Get started</b></a></nuxt-link>
         </base-button>
       </card>
     </div>

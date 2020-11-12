@@ -164,7 +164,9 @@ export default {
     { value: '$1250 - PRO', label: '$1250 - PRO' },
     { value: '$799 - BIZ', label: '$799 - BIZ' },
     { value: '$550 - MID', label: '$550 - MID' },
-    { value: '$299 - LOCAL', label: '$299 - LOCAL' }
+    { value: '$299 - LOCAL', label: '$299 - LOCAL' },
+    { value: '$199 - AUDIT', label: '$199 - AUDIT' },
+    { value: '1250 - DATA SCIENCE', label: '1250 - DATA SCIENCE' }
   ],
   multiple: 'ARS'
 },

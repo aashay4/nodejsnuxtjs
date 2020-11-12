@@ -127,7 +127,7 @@
           <p class="plan">Best for enterprises & large Ecommerce websites</p>
         </div>
         <base-button slot="footer" round type="primary" class="btn-just-icon">
-          Get started
+        <nuxt-link to="/seo-packages"><a href="/seo-packages" style="color: white"> <b>Get started</b></a></nuxt-link>
         </base-button>
       </card>
     </div>

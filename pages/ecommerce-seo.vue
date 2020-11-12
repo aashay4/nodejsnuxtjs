@@ -147,7 +147,7 @@
           <p class="plan">Best for enterprises and large Ecommerce websites</p>
         </div>
         <base-button slot="footer" round type="primary" class="btn-just-icon">
-          Get started
+          <nuxt-link to="/seo-packages"><a href="/seo-packages" style="color: white"> <b>Get started</b></a></nuxt-link>
         </base-button>
       </card>
     </div>
@@ -171,7 +171,7 @@
           <p class="plan">Best for medium business & Ecommerce</p>
         </div>
         <base-button slot="footer" round type="primary" class="btn-just-icon">
-          Get started
+        <nuxt-link to="/seo-packages"><a href="/seo-packages" style="color: white"> <b>Get started</b></a></nuxt-link>
         </base-button>
       </card>
     </div>
@@ -179,7 +179,7 @@
     <div class="col-md-6">
       <card type="testimonial" header-classes="card-header-avatar">
         <a slot="header" href="#pablo">
-          <img class="img img-raised" src="img//james.jpg" alt="Card image" />
+          <img class="img img-raised" src="img//default-avatar.png" alt="Card image" />
         </a>
 
         <p class="card-description">

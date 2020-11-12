@@ -315,10 +315,18 @@ export default {
   },
   methods: {
     senddomain(){
+      if(this.domain === ''){
+        alert("please enter a domain")
+      }
+      else if(!this.domain.includes("http")){
+        alert("please enter URL with http")
+    }
+      else{
       const message = this.domain;
       //this.messages.push(message)
     //  socket.emit('brokenlinks', message)
       socket.emit('brokenlinks1', message)
+    }
     },
   },
   mounted() {
