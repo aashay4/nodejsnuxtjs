@@ -59,7 +59,7 @@ export default {
   */
   buildModules: [
     ['@nuxtjs/google-analytics', {
-      id: 'G-82D63YC8YQ'
+      id: 'UA-182669939-1'
     }]
   ],
   /*

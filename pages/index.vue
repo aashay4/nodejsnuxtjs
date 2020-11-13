@@ -427,7 +427,7 @@ export default {
   // meta tags
   meta: [
       { hid: 'description', name: 'description', content: 'Increase your web presence with our best SEO services. With our innovative strategy and different approach has helped our clients to stay ahead and above then the rest.' }
-  ],
+      ],
   link: [
   {rel: 'canonical', href: 'https://seojs.co/'}
   ]
