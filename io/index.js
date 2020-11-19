@@ -109,7 +109,7 @@ crawlAllUrls('https://neilpatel.com/br/blog/');
 
 
       socket.on('brokenlinks1', function (message) {
-        console.log(message);
+        console.log("for broken link:" + message);
         var crawler1 = Crawler1(message)
 let xxxz = [];
 let xxx2 = [];
@@ -148,7 +148,7 @@ console.log(error);
                     if (urls[item].type === 'tag') {
                       let href = '';
                         href = urls[item].attribs.href;
-                        console.log(href);
+              //          console.log(href);
                         if(href !== undefined && href.startsWith('https'))
                         {
                         https.get(href, function(res) {
@@ -381,7 +381,7 @@ crawler1.on("fetchcomplete", function(queueItem, responseBuffer, response) {
   //console.log(queueItem);
   acc.push(queueItem);
     var last_element = acc[acc.length - 1];
-    console.log(last_element);
+  //  console.log(last_element);
     //console.log(response);
     var downloadtime = queueItem.stateData.downloadTime/1000 + 3;
     var requesttime = queueItem.stateData.requestTime/1000 + 3;
