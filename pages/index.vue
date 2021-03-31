@@ -401,7 +401,7 @@ let bigChartData = [
   [32, 25, 11, 13, 19, 25, 24],
   [2000, 2200, 2400, 1900, 2500, 2750, 2900]
 ]
-let bigChartLabels = ['MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV']
+let bigChartLabels = ['SEP', 'OCT', 'NOV', 'DEC', 'JAN', 'FEB', 'MAR']
 let bigChartDatasetOptions = {
   fill: true,
   borderColor: config.colors.primary,
@@ -516,7 +516,7 @@ export default {
       purpleLineChart: {
         extraOptions: chartConfigs.purpleChartOptions,
         chartData: {
-          labels: ['MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT'],
+          labels: ['OCT', 'NOV', 'DEC', 'JAN', 'FEB', 'MAR'],
           datasets: [
             {
               label: 'Data',
@@ -542,7 +542,7 @@ export default {
       greenLineChart: {
         extraOptions: chartConfigs.greenChartOptions,
         chartData: {
-          labels: ['MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT'],
+          labels: ['OCT', 'NOV', 'DEC', 'JAN', 'FEB', 'MAR'],
           datasets: [
             {
               label: 'Tasks Completed',

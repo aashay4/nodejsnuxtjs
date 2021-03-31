@@ -258,7 +258,7 @@ data() {
     ],
   lineChart2: {
     chartData: {
-      labels: ['MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT'],
+      labels: ['OCT', 'NOV', 'DEC', 'JAN', 'FEB', 'MAR'],
       datasets: [
         {
           label: 'Data',
