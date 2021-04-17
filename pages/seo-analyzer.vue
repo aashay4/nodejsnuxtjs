@@ -1,21 +1,21 @@
 <template>
   <div class="content">
-    <div class="col-md-8 ml-auto mr-auto">
+    <div class="col-md-4 ml-auto mr-auto">
       <h2 class="text-center">SEO Analyzer</h2>
       <input type="text" placeholder="Enter a Domain" v-model="domain" value="" @keyup.enter="senddomain">
       <button type="button" class="btn btn-sm btn-info" name="button" @click="senddomain">Check Domain</button>
     </div><br>
     <!--<button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing1 = 0; isShowing0 ^= true; isshowing = 0; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing8 = 0; isShowing7 = 0">All website Links</button>-->
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing1 = 0; isShowing0 = 0; isShowing ^= true; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing8 = 0; isShowing9 = 0; isShowing7 = 0">Page Speed Check</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing7 = 0; isShowing9 ^= true; isShowing6 = 0; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0; isShowing8 = 0">Page Size</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing = 0; isShowing1 ^= true; isShowing0 = 0; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing8 = 0; isShowing7 = 0">Meta Description</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing2 ^= true; isShowing = 0; isShowing1 = 0; isShowing0 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing9 = 0; isShowing8 = 0; isShowing6 = 0; isShowing7 = 0">Meta Title</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing6 ^= true; isShowing1 = 0; isShowing2 = 0; isShowing9 = 0; isShowing8 = 0; isShowing4 = 0; isShowing0 = 0; isShowing7 = 0">Protocol & Response</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing4 ^= true; isShowing1 = 0; isShowing2 = 0; isShowing0 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing8 = 0; isShowing7 = 0">Canonical Tag</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 ^= true; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0; isShowing9 = 0; isShowing8 = 0; isShowing6 = 0; isShowing7 = 0">Keywords</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing7 ^= true; isShowing6 = 0; isShowing9 = 0; isShowing8 = 0; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0">H1</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing7 = 0; isShowing8 ^= true; isShowing9 = 0; isShowing6 = 0; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0">Images</button>
-    <button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing3 ^= true; isShowing = 0; isShowing1 = 0; isShowing2 = 0; isShowing0 = 0; isShowing4 = 0; isShowing8 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing7 = 0">H2 Tag</button><br><br>
+    <button type="button" class="btn btn-info btn-simple" v-bind:style="isShowing ? 'background-color: sky;' : 'border: none;'" name="button" @click="isShowing1 = 0; isShowing0 = 0; isShowing ^= true; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing8 = 0; isShowing9 = 0; isShowing7 = 0">Page Speed Check</button>
+    <button type="button" class="btn btn-info btn-simple" v-bind:style="isShowing9 ? 'background-color: sky;' : 'border: none;'" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing7 = 0; isShowing9 ^= true; isShowing6 = 0; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0; isShowing8 = 0">Page Size</button>
+    <button type="button" class="btn btn-info btn-simple" v-bind:style="isShowing1 ? 'background-color: sky;' : 'border: none;'" name="button" @click="isShowing = 0; isShowing1 ^= true; isShowing0 = 0; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing8 = 0; isShowing7 = 0">Meta Description</button>
+    <button type="button" class="btn btn-info btn-simple" v-bind:style="isShowing2 ? 'background-color: sky;' : 'border: none;'" name="button" @click="isShowing2 ^= true; isShowing = 0; isShowing1 = 0; isShowing0 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing9 = 0; isShowing8 = 0; isShowing6 = 0; isShowing7 = 0">Meta Title</button>
+    <button type="button" class="btn btn-info btn-simple" v-bind:style="isShowing6 ? 'background-color: sky;' : 'border: none;'" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing6 ^= true; isShowing1 = 0; isShowing2 = 0; isShowing9 = 0; isShowing8 = 0; isShowing4 = 0; isShowing0 = 0; isShowing7 = 0">Protocol & Response</button>
+    <button type="button" class="btn btn-info btn-simple" v-bind:style="isShowing4 ? 'background-color: sky;' : 'border: none;'" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing4 ^= true; isShowing1 = 0; isShowing2 = 0; isShowing0 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing8 = 0; isShowing7 = 0">Canonical Tag</button>
+    <button type="button" class="btn btn-info btn-simple" v-bind:style="isShowing5 ? 'background-color: sky;' : 'border: none;'" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 ^= true; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0; isShowing9 = 0; isShowing8 = 0; isShowing6 = 0; isShowing7 = 0">Keywords</button>
+    <button type="button" class="btn btn-info btn-simple" v-bind:style="isShowing7 ? 'background-color: sky;' : 'border: none;'" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing7 ^= true; isShowing6 = 0; isShowing9 = 0; isShowing8 = 0; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0">H1</button>
+    <button type="button" class="btn btn-info btn-simple" v-bind:style="isShowing8 ? 'background-color: sky;' : 'border: none;'" name="button" @click="isShowing3 = 0; isShowing = 0; isShowing5 = 0; isShowing7 = 0; isShowing8 ^= true; isShowing9 = 0; isShowing6 = 0; isShowing1 = 0; isShowing2 = 0; isShowing4 = 0; isShowing0 = 0">Images</button>
+    <button type="button" class="btn btn-info btn-simple" v-bind:style="isShowing3 ? 'background-color: sky;' : 'border: none;'" name="button" @click="isShowing3 ^= true; isShowing = 0; isShowing1 = 0; isShowing2 = 0; isShowing0 = 0; isShowing4 = 0; isShowing8 = 0; isShowing5 = 0; isShowing6 = 0; isShowing9 = 0; isShowing7 = 0">H2 Tag</button><br><br>
     <div class="">
       <h4>Since we get a lot of dynamic data, we encourage you to use SEO Analyzer on bigger devices.</h4>
     </div>
@@ -1063,6 +1063,7 @@ export default {
   },
   data() {
     return {
+      clicked: false,
       domain: '',
       isShowing: true,
       isShowing0: false,

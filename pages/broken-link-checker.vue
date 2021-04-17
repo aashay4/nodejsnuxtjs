@@ -1,10 +1,10 @@
 <template>
   <div class="content">
-    <div class="col-md-8 ml-auto mr-auto">
+    <div class="col-md-4 ml-auto mr-auto">
       <h2 class="text-center">Broken Link Checker</h2>
       <div class="">
-      <input type="text" placeholder="Enter a Domain" v-model="domain" value="" @keyup.enter="senddomain">
-      <button type="button" class="btn btn-sm btn-info" name="button" @click="senddomain">Check Domain</button></div><br>
+      <input type="text" placeholder="Enter a Domain" style="width: 100%" v-model="domain" value="" @keyup.enter="senddomain"><br><br>
+      <button type="button" class="btn btn-sm btn-info" name="button" style="width: 100%" @click="senddomain">Check Domain</button></div><br>
       <p class="text-center">
         Important Note: Our crawler sends hundreds of requests to the domain you enter per second and gets all the data. This is indeed one of the fasted web crawlers but many web servers cannot handle too many requests at the same time and eventually crash. To avoid any damage to the website, our crawler terminates the program as soon as it finds a fluctuation in the requesting website's server bandwidth.
       </p>
