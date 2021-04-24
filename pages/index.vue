@@ -53,7 +53,8 @@
       </card>
     </div>
     <!-- Stats Cards -->
-    <client-only v-show="elementVisible">
+    <div v-show="elementVisible">
+    <client-only>
     <div class="col-lg-3 col-md-6" v-for="card in statsCards" :key="card.title">
       <stats-card
         :title="card.title"
@@ -65,6 +66,7 @@
       </stats-card>
     </div>
   </client-only>
+</div>
     <!-- Small charts -->
 
     <div class="col-lg-4 mr-auto">
