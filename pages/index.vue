@@ -648,7 +648,7 @@ export default {
     this.initBigChart(0);
   },
   created() {
-            setTimeout(() => this.elementVisible = true, 10000)
+            setTimeout(() => this.elementVisible = true, 20000)
         }
 }
 </script>
