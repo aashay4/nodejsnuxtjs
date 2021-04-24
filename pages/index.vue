@@ -14,7 +14,7 @@
                 class="btn-group btn-group-toggle"
                 data-toggle="buttons"
               >
-              <client-only v-if="elementVisible === true">
+              <client-only>
                 <label
                   v-for="(option, index) in bigLineChartCategories"
                   :key="option.name"
@@ -39,7 +39,7 @@
             </div>
           </div>
         </template>
-        <div class="chart-area">
+        <div class="chart-area" v-if="elementVisible === true">
           <line-chart
             style="height: 100%"
             ref="bigChart"
