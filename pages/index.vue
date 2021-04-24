@@ -53,7 +53,6 @@
       </card>
     </div>
     <!-- Stats Cards -->
-    <div v-show="elementVisible">
     <client-only>
     <div class="col-lg-3 col-md-6" v-for="card in statsCards" :key="card.title">
       <stats-card
@@ -66,7 +65,6 @@
       </stats-card>
     </div>
   </client-only>
-</div>
     <!-- Small charts -->
 
     <div class="col-lg-4 mr-auto">
@@ -78,7 +76,7 @@
           </h3>
         </template>
 
-        <div class="row" v-show="elementVisible">
+        <div class="row">
           <div class="col-6">
             <div class="chart-area">
               <pie-chart
@@ -101,7 +99,7 @@
       </card>
     </div>
 
-    <div class="col-lg-4" v-show="elementVisible">
+    <div class="col-lg-4">
       <card type="chart">
         <template slot="header">
           <h5 class="card-category">Total Running Projects</h5>
@@ -120,7 +118,7 @@
         </div>
       </card>
     </div>
-    <div class="col-lg-4" :class="{ 'text-right': isRTL }" v-show="elementVisible">
+    <div class="col-lg-4" :class="{ 'text-right': isRTL }">
       <card type="chart">
         <template slot="header">
           <h5 class="card-category">Tasks Completed</h5>
@@ -139,12 +137,12 @@
         </div>
       </card>
     </div>
-    <div class="col-lg-12" v-show="elementVisible"><country-map-card></country-map-card></div>
+    <div class="col-lg-12"><country-map-card></country-map-card></div>
     <div class="col-lg-12">
       <card class="card" :header-classes="{ 'text-right': isRTL }">
         <h3 slot="header" class="card-title">Management table of our SEO Services</h3>
         <h5>We create individual password-protected dashboards for each client where they can see the performance information about their website. This information includes total leads, work completed, total keywords ranking in the top 10, sessions in one last month, and pageviews.</h5>
-        <div class="table-responsive" v-show="elementVisible">
+        <div class="table-responsive">
           <client-only>
           <user-table></user-table></client-only>
         </div>
