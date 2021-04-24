@@ -39,7 +39,7 @@
             </div>
           </div>
         </template>
-        <div class="chart-area" v-show="elementVisible">
+        <div class="chart-area">
           <line-chart
             style="height: 100%"
             ref="bigChart"
@@ -450,7 +450,6 @@ export default {
   },
   data () {
     return {
-      elementVisible: false,
       fuckyeah: '',
       pieChart2: {
         chartData: {
@@ -646,10 +645,7 @@ export default {
   },
   mounted () {
     this.initBigChart(0);
-  },
-  created() {
-            setTimeout(() => this.elementVisible = true, 20000)
-        }
+  }
 }
 </script>
 <style></style>
