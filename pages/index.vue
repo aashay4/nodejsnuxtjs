@@ -39,7 +39,7 @@
             </div>
           </div>
         </template>
-        <div class="chart-area" v-if="elementVisible === true">
+        <div class="chart-area" v-show="elementVisible">
           <line-chart
             style="height: 100%"
             ref="bigChart"
@@ -644,8 +644,11 @@ export default {
       this.bigLineChart.activeIndex = index;
     }
   },
-  mounted: function () {
-            setTimeout(() => { this.elementVisible = true }, 5000)
+  mounted () {
+    this.initBigChart(0);
+  },
+  created() {
+            setTimeout(() => this.elementVisible = true, 10000)
         }
 }
 </script>
