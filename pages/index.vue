@@ -39,7 +39,7 @@
             </div>
           </div>
         </template>
-        <div class="chart-area">
+        <div class="chart-area" v-show="elementVisible">
           <line-chart
             style="height: 100%"
             ref="bigChart"
@@ -99,7 +99,7 @@
       </card>
     </div>
 
-    <div class="col-lg-4">
+    <div class="col-lg-4" v-show="elementVisible">
       <card type="chart">
         <template slot="header">
           <h5 class="card-category">Total Running Projects</h5>
@@ -118,7 +118,7 @@
         </div>
       </card>
     </div>
-    <div class="col-lg-4" :class="{ 'text-right': isRTL }">
+    <div class="col-lg-4" :class="{ 'text-right': isRTL }" v-show="elementVisible">
       <card type="chart">
         <template slot="header">
           <h5 class="card-category">Tasks Completed</h5>
@@ -137,12 +137,12 @@
         </div>
       </card>
     </div>
-    <div class="col-lg-12"><country-map-card></country-map-card></div>
+    <div class="col-lg-12" v-show="elementVisible"><country-map-card></country-map-card></div>
     <div class="col-lg-12">
       <card class="card" :header-classes="{ 'text-right': isRTL }">
         <h3 slot="header" class="card-title">Management table of our SEO Services</h3>
         <h5>We create individual password-protected dashboards for each client where they can see the performance information about their website. This information includes total leads, work completed, total keywords ranking in the top 10, sessions in one last month, and pageviews.</h5>
-        <div class="table-responsive">
+        <div class="table-responsive" v-show="elementVisible">
           <client-only>
           <user-table></user-table></client-only>
         </div>
@@ -450,6 +450,7 @@ export default {
   },
   data () {
     return {
+      elementVisible: false,
       fuckyeah: '',
       pieChart2: {
         chartData: {
@@ -645,7 +646,10 @@ export default {
   },
   mounted () {
     this.initBigChart(0);
-  }
+  },
+  created() {
+            setTimeout(() => this.elementVisible = true, 20000)
+        }
 }
 </script>
 <style></style>
