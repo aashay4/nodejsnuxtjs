@@ -53,7 +53,7 @@
       </card>
     </div>
     <!-- Stats Cards -->
-    <client-only>
+    <client-only v-show="elementVisible">
     <div class="col-lg-3 col-md-6" v-for="card in statsCards" :key="card.title">
       <stats-card
         :title="card.title"
