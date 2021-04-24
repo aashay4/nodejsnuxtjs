@@ -2,8 +2,8 @@
   <div class="content">
     <div class="col-md-4 ml-auto mr-auto">
       <h2 class="text-center">SEO Analyzer</h2>
-      <input type="text" placeholder="Enter a Domain" v-model="domain" value="" @keyup.enter="senddomain">
-      <button type="button" class="btn btn-sm btn-info" name="button" @click="senddomain">Check Domain</button>
+      <input type="text" placeholder="Enter a Domain" style="width: 100%" v-model="domain" value="" @keyup.enter="senddomain"><br><br>
+      <button type="button" class="btn btn-sm btn-info" name="button" style="width: 100%" @click="senddomain">Check Domain</button>
     </div><br>
     <!--<button type="button" class="btn btn-sm btn-info btn-simple" name="button" @click="isShowing1 = 0; isShowing0 ^= true; isshowing = 0; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing8 = 0; isShowing7 = 0">All website Links</button>-->
     <button type="button" class="btn btn-info btn-simple" v-bind:style="isShowing ? 'background-color: sky;' : 'border: none;'" name="button" @click="isShowing1 = 0; isShowing0 = 0; isShowing ^= true; isShowing2 = 0; isShowing3 = 0; isShowing4 = 0; isShowing5 = 0; isShowing6 = 0; isShowing8 = 0; isShowing9 = 0; isShowing7 = 0">Page Speed Check</button>

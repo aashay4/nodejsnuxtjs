@@ -14,7 +14,7 @@
                 class="btn-group btn-group-toggle"
                 data-toggle="buttons"
               >
-              <client-only>
+              <client-only v-if="elementVisible === true">
                 <label
                   v-for="(option, index) in bigLineChartCategories"
                   :key="option.name"
@@ -450,6 +450,7 @@ export default {
   },
   data () {
     return {
+      elementVisible: false,
       fuckyeah: '',
       pieChart2: {
         chartData: {
@@ -643,9 +644,9 @@ export default {
       this.bigLineChart.activeIndex = index;
     }
   },
-  mounted () {
-    this.initBigChart(0);
-  }
+  mounted: function () {
+            setTimeout(() => { this.elementVisible = true }, 5000)
+        }
 }
 </script>
 <style></style>
