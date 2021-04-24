@@ -78,7 +78,7 @@
           </h3>
         </template>
 
-        <div class="row">
+        <div class="row" v-show="elementVisible">
           <div class="col-6">
             <div class="chart-area">
               <pie-chart
