@@ -14,7 +14,7 @@
                 class="btn-group btn-group-toggle"
                 data-toggle="buttons"
               >
-              <client-only>
+              <client-only v-lazy-load>
                 <label
                   v-for="(option, index) in bigLineChartCategories"
                   :key="option.name"
@@ -39,7 +39,7 @@
             </div>
           </div>
         </template>
-        <div class="chart-area">
+        <div class="chart-area" v-lazy-load>
           <line-chart
             style="height: 100%"
             ref="bigChart"
@@ -53,7 +53,7 @@
       </card>
     </div>
     <!-- Stats Cards -->
-    <client-only>
+    <client-only v-lazy-load>
     <div class="col-lg-3 col-md-6" v-for="card in statsCards" :key="card.title">
       <stats-card
         :title="card.title"
@@ -67,7 +67,7 @@
   </client-only>
     <!-- Small charts -->
 
-    <div class="col-lg-4 mr-auto">
+    <div class="col-lg-4 mr-auto" v-lazy-load>
       <card class="card-chart card-chart-pie">
         <template slot="header">
           <h5 class="card-category">Different Frameworks/Technologies We Made Search Friendly</h5>
@@ -99,7 +99,7 @@
       </card>
     </div>
 
-    <div class="col-lg-4">
+    <div class="col-lg-4" v-lazy-load>
       <card type="chart">
         <template slot="header">
           <h5 class="card-category">Total Running Projects</h5>
@@ -118,7 +118,7 @@
         </div>
       </card>
     </div>
-    <div class="col-lg-4" :class="{ 'text-right': isRTL }">
+    <div v-lazy-load class="col-lg-4" :class="{ 'text-right': isRTL }">
       <card type="chart">
         <template slot="header">
           <h5 class="card-category">Tasks Completed</h5>
