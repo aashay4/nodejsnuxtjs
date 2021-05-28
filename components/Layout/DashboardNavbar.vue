@@ -78,7 +78,7 @@
         <template
           slot="title"
         >
-          <div class="photo"><img src="img/aasshey.png" /></div>
+          <div class="photo"><img src="img/aasshey.jpg" /></div>
           <b class="caret d-none d-lg-block d-xl-block"></b>
               </template>
         <li class="nav-link">

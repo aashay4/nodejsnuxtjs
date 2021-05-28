@@ -7,7 +7,7 @@
       <div class="block block-three"></div>
       <div class="block block-four"></div>
       <a href="javascript:void(0)">
-        <img class="avatar" src="img/aasshey.png" alt="Aasshey Triveddi" />
+        <img class="avatar" src="img/aasshey.jpg" alt="Aasshey Triveddi" />
         <h5 class="title">Aasshey Triveddi</h5>
       </a>
       <p class="description">Founder</p>
