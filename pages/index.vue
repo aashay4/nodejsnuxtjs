@@ -39,7 +39,7 @@
             </div>
           </div>
         </template>
-        <div class="chart-area" v-show="elementVisible">
+        <div class="chart-area">
           <line-chart
             style="height: 100%"
             ref="bigChart"
