@@ -67,7 +67,7 @@
   </client-only>
     <!-- Small charts -->
 
-    <div @mouseenter="lazyLoadImage" class="col-lg-4 mr-auto">
+    <div class="col-lg-4 mr-auto">
       <card class="card-chart card-chart-pie">
         <template slot="header">
           <h5 class="card-category">Different Frameworks/Technologies We Made Search Friendly</h5>
@@ -313,7 +313,7 @@
               </card>
             </div>
 
-            <div @mouseenter="lazyLoadImage" class="col-lg-3 col-md-6">
+            <div class="col-lg-3 col-md-6">
               <card
                 type="pricing"
                 class="card-warning card-raised card-white"
