@@ -59,7 +59,6 @@ export default {
     'nuxt-i18n',
     '@nuxtjs/axios',
       '~/io',
-      'nuxt-lazy-load',
   ],
   axios: {
     proxy: true
