@@ -59,10 +59,15 @@ export default {
     'nuxt-i18n',
     '@nuxtjs/axios',
       '~/io',
+      '@nuxtjs/google-adsense',
   ],
   axios: {
     proxy: true
   },
+  'google-adsense': {
+   id: 'ca-pub-6829148792481216'
+ },
+
 serverMiddleware: [
 '~/api/index.js'
 ],
